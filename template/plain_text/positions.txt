@@ -1,8 +1,15 @@
 {% for position in positions %}
-* {{ position.company }} in {{ position.location }}
+o {{ position.company }} in {{ position.location }}
 | {{ position.title }} with {{ position.team }}
 | {{ position.start }} - {{ position.end|default("Present") }}
-    {# add separator between positions #}
+    {% for resp in position.responsibilities %}
+        {% if loop.first %}
+|
+        {% endif %}
+| * {{ resp }}
+    {% endfor -%}
+
+    {# add blank line between positions #}
     {% if not loop.last %}
 |
     {% endif %}
