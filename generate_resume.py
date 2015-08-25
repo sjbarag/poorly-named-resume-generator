@@ -7,7 +7,7 @@ from debug.debug import dprint
 
 def load_templates(template_dir=os.path.join(os.getcwd(), 'template')):
     loader = jinja2.FileSystemLoader(template_dir)
-    environment = jinja2.environment.Environment(loader=loader)
+    environment = jinja2.environment.Environment(loader=loader, trim_blocks=True, lstrip_blocks=True)
     return environment
 
 if __name__ == "__main__":

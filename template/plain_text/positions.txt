@@ -1,0 +1,11 @@
+{% extends "plain_text/base.txt" %}
+{% block experience %}
+    {% for position in positions %}
+        {% if not loop.first %}
+
+        {% endif %}
+        {{ position.company }} in {{ position.location }}
+        {{ position.title }} with {{ position.team }}
+        {{ position.start }} - {{ position.end|default("Present") }}
+    {% endfor %}
+{% endblock %}

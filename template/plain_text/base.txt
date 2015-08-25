@@ -1,0 +1,7 @@
+{% block head %}HEADER{% endblock %}
+{% block author %}{% endblock %}
+
+{% block experience %}{% endblock %}
+
+{% block education %}{% endblock %}
+{% block foot %}{% endblock %}

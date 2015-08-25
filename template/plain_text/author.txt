@@ -1,5 +1,8 @@
+{% extends "plain_text/base.txt" %}
+{% block author %}
 Author: {{ author.name }}
 Location: {{ author.location }}
 Phone Number: {{ author.phone }}
 Email: {{ author.email }}
 Website: http://{{ author.website }}
+{% endblock %}

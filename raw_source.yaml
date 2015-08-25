@@ -26,14 +26,14 @@ education:
     graduation: 2013-06-13
 
 positions:
-    - lockheed_ia: &lockheed_ia
+    - &lockheed_ia
         company: Lockheed Martin MS2
         location: Moorestown, NJ
         start: 2012-04-01
         end: 2012-09-01
         title: Coop Technical Senior
         team: Information Assurance (IA)
-    - lockeed_ciit: &lockheed_ciit
+    - &lockheed_ciit
         company: Lockheed Martin MS2
         location: Moorestown, NJ
         start: 2011-03-01
