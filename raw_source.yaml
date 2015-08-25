@@ -10,14 +10,14 @@ education:
     institution: Drexel University
     location: Philadelphia, PA
     studies:
-        - ce:
+        - &ce
             area: Computer Engineering
             level: BS
-        - ee:
+        - &ee
             area: Electrical Engineering
             focus: Electronics
             level: BS
-        - cs:
+        - &cs
             area: Computer Science
             level: Minor
     gpa:
