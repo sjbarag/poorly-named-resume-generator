@@ -1,0 +1,45 @@
+---
+author:
+    name: Sean Barag
+    location: Seattle, WA
+    phone: +1(215)-380-8844
+    email: sjbarag@fastmail.fm
+    website: seanbarag.com
+
+education:
+    institution: Drexel University
+    location: Philadelphia, PA
+    studies:
+        - ce:
+            area: Computer Engineering
+            level: BS
+        - ee:
+            area: Electrical Engineering
+            focus: Electronics
+            level: BS
+        - cs:
+            area: Computer Science
+            level: Minor
+    gpa:
+        in_major: 3.63
+        cumulative: 3.58
+    graduation: 2013-06-13
+
+positions:
+    - lockheed_ia: &lockheed_ia
+        company: Lockheed Martin MS2
+        location: Moorestown, NJ
+        start: 2012-04-01
+        end: 2012-09-01
+        title: Coop Technical Senior
+        team: Information Assurance (IA)
+    - lockeed_ciit: &lockheed_ciit
+        company: Lockheed Martin MS2
+        location: Moorestown, NJ
+        start: 2011-03-01
+        end: 2011-09-01
+        title: Coop Technical Senior
+        team: Computer Infrastructure & Integration Testing
+
+      
+...
