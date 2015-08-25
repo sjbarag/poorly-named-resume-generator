@@ -1,7 +1,6 @@
 import argparse
 import jinja2
 import os
-import types
 import yaml
 
 from debug.debug import dprint
@@ -30,15 +29,8 @@ if __name__ == "__main__":
                     template = environment.get_template(os.path.join('plain_text',section+os.path.extsep+'txt'))
                     dprint("found template {}".format(template))
 
-                    metatype = types.new_class(section)
-                    dprint("created metatype {}".format(metatype))
-                    metaobject = metatype()
-                    metaobject.__dict__ = value
-                    dprint("metaobject = {}".format(str(metaobject)))
-                    dprint("metaobject = {}".format(metaobject.__dict__))
-
                     metaargs = dict()
-                    metaargs[section] = metaobject
+                    metaargs[section] = value
                     output.write(template.render(metaargs))
                 except (jinja2.TemplateNotFound):
                     print("Source section '{}' found in source file, but no template exists".format(section))
