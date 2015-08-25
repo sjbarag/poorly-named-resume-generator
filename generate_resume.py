@@ -23,14 +23,10 @@ if __name__ == "__main__":
     with open('resume.txt', 'w') as output:
         with open(args.source_file, 'r') as source_file:
             raw = yaml.load(source_file)
-            for section, value in zip(raw.keys(), raw.values()):
-                try:
-                    # Wow this is gross.  refactor a _ton_
-                    template = environment.get_template(os.path.join('plain_text',section+os.path.extsep+'txt'))
-                    dprint("found template {}".format(template))
+            try:
+                template_name = os.path.join('plain_text','base'+os.path.extsep+'txt')
+                template = environment.get_template(template_name)
+            except (jinja2.TemplateNotFound):
+                print("Unable to find base template {}".format(template_name))
 
-                    metaargs = dict()
-                    metaargs[section] = value
-                    output.write(template.render(metaargs))
-                except (jinja2.TemplateNotFound):
-                    print("Source section '{}' found in source file, but no template exists".format(section))
+            output.write(template.render(root=raw))

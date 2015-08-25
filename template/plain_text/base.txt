@@ -1,7 +1,8 @@
-{% block head %}HEADER{% endblock %}
-{% block author %}{% endblock %}
+{% block head %}[HEADER]{% endblock %}
 
-{% block experience %}{% endblock %}
+{% set author = root.author %}
+{% include 'plain_text/author.txt' %}
 
-{% block education %}{% endblock %}
-{% block foot %}{% endblock %}
+
+{% set positions = root.positions %}
+{% include 'plain_text/positions.txt' %}
