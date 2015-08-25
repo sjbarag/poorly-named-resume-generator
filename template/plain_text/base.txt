@@ -6,3 +6,8 @@
 
 {% set positions = root.positions %}
 {% include 'plain_text/positions.txt' %}
+
+{% block foot %}
+
+Generated from YAML source with jinja2
+{%- endblock %}
