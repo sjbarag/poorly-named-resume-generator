@@ -1,0 +1,10 @@
+{% for project in side_projects|sort(attribute='started', reverse=True) %}
+o {{ project.name }} - {{ project.description }}
+| * Started: {{ project.started }}
+| * Goal: {{ project.goal }}
+| * Status: {{ project.status }}
+| * Future: {{ project.future }}
+{% if not loop.last %}
+|
+{% endif %}
+{% endfor %}

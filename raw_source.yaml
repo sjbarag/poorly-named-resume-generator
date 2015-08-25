@@ -33,6 +33,13 @@ positions:
         end: 2012-09-01
         title: Coop Technical Senior
         team: Information Assurance (IA)
+        responsibilities:
+            - Scan mission-critical systems for vulnerabilities with automated and manual tools
+            - Harden mission-critical systems by applying updates and patches
+            - Research new scanning software to comply with new DoD standards requirements
+            - Write Excel plugin to automatically format data for vulnerability reports
+            - Coordinate with senior engineers and senior executives for weekly status updates
+            - Create departmental wiki for tool documentation and usage tips
     - &lockheed_ciit
         company: Lockheed Martin MS2
         location: Moorestown, NJ
@@ -40,6 +47,60 @@ positions:
         end: 2011-09-01
         title: Coop Technical Senior
         team: Computer Infrastructure & Integration Testing
+        responsibilities:
+            - Wrote Bash scripts to expedite deployment and integration processes
+            - Developed, tested, and documented backup procedures for servers, diskless & iSCSI disk-based nodes
+            - Worked alongside Sr. Engineers in development of Cisco IOS applet to monitor CF cards containing critical ship status information
+            - Wrote VBA script to categorize 4000+ pieces of equipment for proposal
+            - Refreshed firmware update procedure deployed to soldiers and used on 100+ systems within LM
+            - All work used on US Government Secret classified systems
 
-      
+side_projects:
+    - &pnrg
+        name: PNRG (Poorly Named Resume Generator)
+        description: Templatized resume source generator
+        goal: Reduce effort required to maintain multiple parallel resume formats
+        status: In-use, not-yet published
+        future: Under active development
+        started: 2015-08-25
+    - &rush
+        name: Rush
+        description: POSIX shell implementation in Rust
+        goal: Teach myself Rust
+        status: Basic functionality complete; parser not complete
+        future: Development on-hold, pending free time and Rust maturity
+        started: 2015-01-09
+    - &textspansion
+        name: Textspansion
+        description: Text expansion for Android devices
+        goal: Add missing features to Android ecosystem while learning Android dev paradigms
+        status: Released June 2011
+        future: Development on-hold indefinitely
+        started: 2011-05-04
+
+skills:
+    languages:
+        - Bash/POSIX shells
+        - C
+        - Java
+        - LaTeX
+        - Python
+        - Perl (forever rusty)
+        - Rust (casual observer)
+    tools:
+        - vim
+        - GNU coreutils
+        - git, mercurial
+        - Spring
+        - Django
+        - AWS S3, DyamoDB, SQS, SNS
+    operating_systems:
+        - Linux (Arch, Debian, Fedora, RHEL, Ubuntu)
+        - Unix (Solaris 9)
+        - Mac OS (10.5, 10.6)
+    paradigms:
+        - Distributed systems
+        - Service-Oriented Architectures (SOA)
+        - Relational databases
+        - Nonrelational databases
 ...
