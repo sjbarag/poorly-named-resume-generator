@@ -2,6 +2,7 @@ import argparse
 import jinja2
 import os
 import yaml
+import bnrg.filters
 
 from debug.debug import dprint
 
@@ -23,7 +24,12 @@ _OUTPUT_FORMATS = {
 def load_templates(template_dir=os.path.join(os.getcwd(), 'template')):
     loader = jinja2.FileSystemLoader(template_dir)
     environment = jinja2.environment.Environment(loader=loader, trim_blocks=True, lstrip_blocks=True)
+    _register_filters(environment)
     return environment
+
+def _register_filters(environment):
+    environment.filters['right'] = bnrg.filters.do_right
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
