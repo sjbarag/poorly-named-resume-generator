@@ -1,0 +1,27 @@
+{% set author = root.author %}
+{% include 'formatted_text/author.txt' %}
+
+
+{{ "-" * 80 }}
+
+EXPERIENCE
+{% set positions = root.positions %}
+{% include 'formatted_text/positions.txt' %}
+
+NOTABLE SIDE PROJECTS
+{% set side_projects = root.side_projects %}
+{% include 'formatted_text/side_projects.txt' %}
+
+EDUCATION
+{% set education = root.education %}
+{% include 'formatted_text/education.txt' %}
+
+
+SKILLS
+{% set skills = root.skills %}
+{% include 'formatted_text/skills.txt' %}
+
+{% block foot %}
+
+Generated with PNRG (Poorly Named Resume Generator)
+{%- endblock %}

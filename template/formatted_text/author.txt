@@ -1,0 +1,4 @@
+{{ "%s  ~/"|format(author.location)|right(76) }}
+   +{{ "-" * author.name|length}}+{{ "%s   #"|format(author.phone)|right(61) }}
+   |{{ author.name }}|{{ "%s   @"|format(author.email)|right(61) }}
+   +{{ "-" * author.name|length}}+{{ "http://%s  <>"|format(author.website)|right(61) }}
