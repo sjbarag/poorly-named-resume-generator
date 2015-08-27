@@ -23,5 +23,5 @@ SKILLS
 
 {% block foot %}
 
-Generated with PNRG (Poorly Named Resume Generator)
+{{ "Generated with PNRG (Poorly Named Resume Generator)" | center }}
 {%- endblock %}
