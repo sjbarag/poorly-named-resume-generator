@@ -1,7 +1,7 @@
 {% for position in positions %}
 o {{ position.company }} in {{ position.location }}
 | {{ position.title }} with {{ position.team }}
-| {{ position.start }} - {{ position.end|default("Present") }}
+| {{ position.start }} - {{ position.end|default("Present",true) }}
     {% for resp in position.responsibilities %}
         {% if loop.first %}
 |
