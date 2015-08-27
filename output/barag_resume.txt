@@ -50,7 +50,7 @@ o Lockheed Martin MS2 in Moorestown, NJ
 | * All work used on US Government Secret classified systems
 
 NOTABLE SIDE PROJECTS
-o PNRG (Poorly Named Resume Generator) - Templatized resume source generator
+o PNRG (Poorly Named Resume Generator) - Templated resume source generator
 | * Started: 2015-08-25
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
 | * Status: In-use, not-yet published

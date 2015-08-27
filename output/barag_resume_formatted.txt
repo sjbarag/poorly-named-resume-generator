@@ -71,7 +71,7 @@ NOTABLE SIDE PROJECTS
 
                 ^
                 |
-    2015-08-25  o  PNRG (Poorly Named Resume Generator) - Templatized resume
+    2015-08-25  o  PNRG (Poorly Named Resume Generator) - Templated resume
                 |  source generator
                 |    * Goal:    Reduce effort required to maintain multiple
                 |               parallel resume formats

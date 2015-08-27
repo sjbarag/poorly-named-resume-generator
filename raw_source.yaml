@@ -83,7 +83,7 @@ positions:
 side_projects:
     - &pnrg
         name: PNRG (Poorly Named Resume Generator)
-        description: Templatized resume source generator
+        description: Templated resume source generator
         goal: Reduce effort required to maintain multiple parallel resume formats
         status: In-use, not-yet published
         future: Under active development
