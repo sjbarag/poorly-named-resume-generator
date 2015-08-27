@@ -26,6 +26,31 @@ education:
     graduation: 2013-06-13
 
 positions:
+    - &amazon_mss_sd2
+        company: Amazon.com
+        location: Seattle, WA
+        start: 2015-04-02
+        title: Software Development Engineer II
+        team: Marketplace Shipping Services
+        responsibilities:
+            - Led, Designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
+            - Provided external developer support during public beta of shipping label web service
+            - Coordinated team of six developers in working in parallel in same codebase
+    - &amazon_mss_sde1
+        company: Amazon.com
+        location: Seattle, WA
+        start: 2013-08-12
+        end: 2015-04-02
+        title: Software Development Engineer I
+        team: Marketplace Shipping Services
+        responsibilities:
+            - Wrote script to find fatal error root-causes in logs across three web services
+            - Reduced fatal errors from 1,100 fatals per million requests to 200 fatals per million
+            - Contributed to Amazon-internal tools to read and transform missing log data
+            - Contributed new library to Amazon community to set outgoing request ID for web service calls
+            - Developed and maintained Java service that processed 28 requests per second (at peak)
+            - Designed asynchronous workflow-based service to purchase up to 500 shipping labels and merge into single PDF
+            - Identified multiple production security vulnerabilities; critical vuln. fixed in prod within 24 hours
     - &lockheed_ia
         company: Lockheed Martin MS2
         location: Moorestown, NJ
