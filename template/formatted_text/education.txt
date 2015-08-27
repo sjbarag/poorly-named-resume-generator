@@ -1,0 +1,13 @@
+{% set left_col = 16 %}
+
+{{ "^" | indent(left_col, true) }}
+{{ "|" | indent(left_col, true) }}
+{{ "%s  o" | format(education.graduation) | right(left_col + 1) }}  {{ education.institution }} in {{ education.location }}
+{% for study in education.studies %}
+    {% if study.focus %}
+{{ "|    *" | indent(left_col, true) }} {{ study.level}} in {{ study.area }} ({{ study.focus }})
+    {% else %}
+{{ "|    *" | indent(left_col, true) }} {{ study.level}} in {{ study.area }} 
+    {% endif %}
+{% endfor %}
+{{ "|    *" | indent(left_col, true) }} Cumulative GPA: {{ education.gpa.in_major }} | In-major: {{ education.gpa.in_major }}
