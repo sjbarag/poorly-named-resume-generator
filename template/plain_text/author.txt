@@ -1,7 +1,7 @@
 {{ "-" * author.name|length }}
 {{ author.name }}
 {{ "-" * author.name|length }}
- ~/: {{ author.location }}
+~/: {{ author.location }}
  #: {{ author.phone }}
  @: {{ author.email }}
 <>: http://{{ author.website }}
