@@ -1,11 +1,13 @@
 {% set title_wrap = "\n" + " "*14 + "|  " %}
-{% set responsibility_wrap = "\n" + "|" + " "*8 %}
-{{ "^"|indent(16,true) }}
+{% set responsibility_wrap = "\n" + "|" + " "*6 %}
+{% set left_col = 16 %}
+{% set right_col = 80 - (left_col + 1) %}
+{{ "^" | indent(left_col,true) }}
 {% for p in positions %}
-{{ "|"|indent(16,true) }}
-{{   "%s  o"|format(p.start)|right(17) }}{{ "%s in %s"|format(p.company, p.location)|indent(2, true) }}
-{{ "- %s  |"|format(p.end)|right(17) }}{{ "%s with %s"|format(p.title, p.team)|wordwrap(61, wrapstring=title_wrap)|indent(2, true)}}
+{{ "|" | indent(left_col,true) }}
+{{   "%s  o" | format(p.start) | right(left_col+1) }}  {{ "%s in %s" | format(p.company, p.location) }}
+{{ "- %s  |" | format(p.end | default("Present")) | right(left_col+1) }}  {{ "%s with %s" | format(p.title, p.team) | wordwrap(59, wrapstring=title_wrap) | indent(2)}}
     {% for r in p.responsibilities %}
-{{ "|      * %s"|format(r)|wordwrap(56, wrapstring=responsibility_wrap)|indent(16, true) }}
+{{ "|    *" | indent(left_col,true) }} {{ r | wordwrap(56, wrapstring=responsibility_wrap | indent(left_col)) }}
     {% endfor %}
 {% endfor %}
