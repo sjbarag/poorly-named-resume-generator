@@ -7,18 +7,17 @@ import bnrg.filters
 from debug.debug import dprint
 
 class OutputFormat(object):
-    def __init__(self, arg_name, template_extension, output_suffix, output_extension):
+    def __init__(self, arg_name, template_extension, output_suffix):
         self.arg_name = arg_name
         self.template_extension = template_extension
         self.output_suffix = output_suffix
-        self.output_extension = output_extension
 
 
 # maps output format to template file extension
 _OUTPUT_FORMATS = {
-    'pdf': OutputFormat('pdf', 'tex', None, 'pdf'),
-    'formatted_text': OutputFormat('formatted_text', 'txt', '_formatted', 'txt'),
-    'plain_text': OutputFormat('plain_text', 'txt', None, 'txt')
+    'latex': OutputFormat('latex', 'tex', None),
+    'formatted_text': OutputFormat('formatted_text', 'txt', '_formatted'),
+    'plain_text': OutputFormat('plain_text', 'txt', None)
 }
 
 def load_templates(template_dir=os.path.join(os.getcwd(), 'template')):
@@ -54,8 +53,8 @@ if __name__ == "__main__":
 
         # generate all requested formats
         for doc_format in args.formats:
-            output_ext = _OUTPUT_FORMATS[doc_format].output_extension
             template_ext = _OUTPUT_FORMATS[doc_format].template_extension
+            output_ext = template_ext # all existing templates generate files with the same file extension
             suffix = _OUTPUT_FORMATS[doc_format].output_suffix
             if suffix is None:
                 suffix = ""
