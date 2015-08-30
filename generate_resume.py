@@ -3,6 +3,7 @@ import jinja2
 import os
 import yaml
 import bnrg.filters
+from distutils import dir_util
 
 from debug.debug import dprint
 
@@ -11,7 +12,6 @@ class OutputFormat(object):
         self.arg_name = arg_name
         self.template_extension = template_extension
         self.output_suffix = output_suffix
-
 
 # maps output format to template file extension
 _OUTPUT_FORMATS = {
@@ -43,11 +43,10 @@ if __name__ == "__main__":
     dprint("found templates {}".format(environment.list_templates()))
 
     with open(args.source_file, 'r') as source_file:
-        # create an output directory if one doesn't yet exist
-        try:
-            os.mkdir(args.destination)
-        except (OSError):
-            pass
+        # copy static-content into destination directory
+        # use distutils' dir_util instead of shutil.copytree, because copytree requires the destination to not exist before calling.
+        # removing the entire output directory every time just to use the convenient copytree() is confusing for users.
+        dir_util.copy_tree('./static-content', args.destination, update=True)
 
         raw = yaml.load(source_file)
 
