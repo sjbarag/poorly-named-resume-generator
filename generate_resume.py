@@ -11,7 +11,7 @@ class OutputFormat(object):
     def __init__(self, arg_name, template_extension, output_suffix):
         self.arg_name = arg_name
         self.template_extension = template_extension
-        self.output_suffix = output_suffix
+        self.output_suffix = output_suffix if output_suffix else ""
 
 # maps output format to template file extension
 _OUTPUT_FORMATS = {
@@ -58,8 +58,6 @@ if __name__ == "__main__":
             template_ext = _OUTPUT_FORMATS[doc_format].template_extension
             output_ext = template_ext # all existing templates generate files with the same file extension
             suffix = _OUTPUT_FORMATS[doc_format].output_suffix
-            if suffix is None:
-                suffix = ""
 
             output_file = os.path.join(args.destination, args.output_name + suffix + os.path.extsep + output_ext)
             with open(output_file, 'w') as output:
