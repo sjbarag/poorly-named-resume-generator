@@ -108,8 +108,8 @@
 }
 
 % ----- job entries -----
-\newenvironment{job}[5]
-{\tikz \coordinate (#5);\relax
+\newenvironment{job}[4]
+{\tikz \coordinate (#4);\relax
 {\large\emph{#1}\ }{\small in #2} \\
        #3
   \begin{itemize*}}
