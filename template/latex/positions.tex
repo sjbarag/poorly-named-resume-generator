@@ -1,0 +1,30 @@
+((* with *))
+((* set positions = root.positions *))
+\section{Experience}\relax
+    \renewcommand{\labelitemi}{$\cdot$}\relax % use cdot as a bullet.  it's less obvious
+    ((* for p in positions *))
+    \begin{job}{((( p.company | escape_tex )))}
+        {((( p.location | escape_tex )))}
+        {((( p.title | escape_tex ))) --- ((( p.team | escape_tex )))}
+        {job_((( loop.index0 )))}
+        ((* for resp in p.responsibilities *))
+            \item ((( resp | escape_tex )))
+        ((* endfor *))
+    \end{job}
+
+    ((* endfor *))
+    \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
+    ((* for p in positions *))
+        \node [bubble, label=left:((( "%s -- %s" | format(p.start, p.end | default("Present", true)) )))] at (job_((( loop.index0 )))) (job_((( loop.index0 )))_bubble) {};
+    ((* endfor *))
+    \draw
+    ((* for p in positions *))
+        (job_((( loop.index0 )))_bubble)
+((*- if not loop.last *))
+ --
+((* else *))
+;
+((* endif *))
+    ((* endfor *))
+    \end{tikzpicture}
+((* endwith *))
