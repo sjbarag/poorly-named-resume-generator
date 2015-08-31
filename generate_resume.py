@@ -20,9 +20,23 @@ _OUTPUT_FORMATS = {
     'plain_text': OutputFormat('plain_text', 'txt', None)
 }
 
-def load_templates(template_dir=os.path.join(os.getcwd(), 'template')):
+def load_templates(_format, template_dir=os.path.join(os.getcwd(), 'template')):
     loader = jinja2.FileSystemLoader(template_dir)
-    environment = jinja2.environment.Environment(loader=loader, trim_blocks=True, lstrip_blocks=True)
+    environment = jinja2.environment.Environment(loader=loader, trim_blocks=True, lstrip_blocks=True, extensions=['jinja2.ext.with_'])
+
+    # Use a different template syntax for tex files, because tex is heavily dependent '{', '}', and '%'.
+    # kang'd from (with permission!) http://flask.pocoo.org/snippets/55/
+    if _format == "latex":
+        #environment = jinja2.environment.Environment('((*', '*))', '(((', ')))', '((=', '=))', 
+        environment.block_start_string = '((*'
+        environment.block_end_string = '*))'
+        environment.variable_start_string = '((('
+        environment.variable_end_string = ')))'
+        environment.comment_start_string = '((='
+        environment.comment_end_string = '=))'
+
+        environment.filters['escape_tex'] = bnrg.filters.escape_tex
+
     _register_filters(environment)
     return environment
 
@@ -55,6 +69,9 @@ if __name__ == "__main__":
 
         # generate all requested formats
         for doc_format in args.formats:
+            environment = load_templates(_format=doc_format)
+            logging.debug("found templates {}".format(environment.list_templates()))
+
             template_ext = _OUTPUT_FORMATS[doc_format].template_extension
             output_ext = template_ext # all existing templates generate files with the same file extension
             suffix = _OUTPUT_FORMATS[doc_format].output_suffix
