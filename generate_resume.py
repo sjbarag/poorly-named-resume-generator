@@ -5,7 +5,7 @@ import yaml
 import bnrg.filters
 from distutils import dir_util
 
-from debug.debug import dprint
+import logging, sys
 
 class OutputFormat(object):
     def __init__(self, arg_name, template_extension, output_suffix):
@@ -37,12 +37,15 @@ if __name__ == "__main__":
     parser.add_argument('--destination', '-d', help="directory used to write generated documents", default="output")
     parser.add_argument('--output-name', '-o', dest='output_name', help="base name used for generated files in 'destination'", default="document")
     parser.add_argument('source_file', help="yaml-formatted containing the desired resume sections")
+    parser.add_argument('--verbose', '-v', help="Enable verbose logging", action='store_true')
     args = parser.parse_args()
 
-    environment = load_templates()
-    dprint("found templates {}".format(environment.list_templates()))
+    if args.verbose:
+        logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+
 
     with open(args.source_file, 'r') as source_file:
+
         # copy static-content into destination directory
         # use distutils' dir_util instead of shutil.copytree, because copytree requires the destination to not exist before calling.
         # removing the entire output directory every time just to use the convenient copytree() is confusing for users.
@@ -62,7 +65,9 @@ if __name__ == "__main__":
             with open(output_file, 'w') as output:
                 try:
                     template_name = os.path.join(doc_format, 'base' + os.path.extsep + template_ext)
+                    logging.debug("template name = {}".format(template_name))
+                    logging.debug("template name in template list: {}".format(template_name in environment.list_templates()))
                     template = environment.get_template(template_name)
                     output.write(template.render(root=raw))
-                except (jinja2.TemplateNotFound):
-                    print("Unable to find base template {}".format(template_name))
+                except jinja2.TemplateNotFound as tnf:
+                    print("Unable to find base template {}:\n{}".format(template_name, tnf))
