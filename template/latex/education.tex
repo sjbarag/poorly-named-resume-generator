@@ -1,13 +1,17 @@
 ((* with *))
 ((* set edu = root.education *))
 \section{Education}\relax
-    \textbf{((( edu.institution )))} \small{in ((( edu.location )))}\\
+    {\large\emph{((( edu.institution )))}} {\small in ((( edu.location )))} \hfill Graduated: ((( edu.graduation )))\\
 ((* for study in edu.studies *))
         ((* if study.focus *))
-    ((( study.level ))) in ((( study.area ))) (((( study.focus ))))\\
+    ((( study.level ))) in ((( study.area ))) ((( "(%s)" | format(study.focus)  )))
+        ((*- else *))
+    ((( study.level ))) in ((( study.area )))
+        ((*- endif *))
+        ((* if loop.first *))
+ \hfill \emph{Cumulative GPA: ((( edu.gpa.cumulative ))) $|$ In-major: ((( edu.gpa.in_major )))}\\
         ((* else *))
-    ((( study.level ))) in ((( study.area )))\\
+\\
         ((* endif *))
 ((* endfor *))
-    \textbf{Cumulative GPA: ((( edu.gpa.cumulative ))) $|$ In-major: ((( edu.gpa.in_major )))}
 ((* endwith *))
