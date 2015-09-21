@@ -6,5 +6,5 @@
 * {{ study.level }} in {{ study.area }}
     {% endif %}
 {% endfor %}
-* Cumulative GPA: {{ education.gpa.in_major }} | In-major: {{ education.gpa.in_major }}
+* Cumulative GPA: {{ education.gpa.cumulative }} | In-major: {{ education.gpa.in_major }}
 * Graduated {{ education.graduation }}

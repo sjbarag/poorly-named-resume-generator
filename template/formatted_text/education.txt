@@ -10,4 +10,4 @@
 {{ "|    *" | indent(left_col, true) }} {{ study.level}} in {{ study.area }} 
     {% endif %}
 {% endfor %}
-{{ "|    *" | indent(left_col, true) }} Cumulative GPA: {{ education.gpa.in_major }} | In-major: {{ education.gpa.in_major }}
+{{ "|    *" | indent(left_col, true) }} Cumulative GPA: {{ education.gpa.cumulative }} | In-major: {{ education.gpa.in_major }}
