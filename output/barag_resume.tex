@@ -57,14 +57,30 @@
     \end{job}
 
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
-        \node [bubble, label=left:2015-04-02 -- Present] at (job_0) (job_0_bubble) {};
-        \node [bubble, label=left:2013-08-12 -- 2015-04-02] at (job_1) (job_1_bubble) {};
-        \node [bubble, label=left:2012-04-01 -- 2012-09-01] at (job_2) (job_2_bubble) {};
-        \node [bubble, label=left:2011-03-01 -- 2011-09-01] at (job_3) (job_3_bubble) {};
-    \draw
-        (job_0_bubble) --
-        (job_1_bubble) --
-        (job_2_bubble) --
-        (job_3_bubble);
+        \node [bubble] at (job_0) (job_0_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_0_bubble.base]
+            at (job_0)
+            (job_0_label)
+            {2015-04-02\\ --- Present};
+        \node [bubble] at (job_1) (job_1_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_1_bubble.base]
+            at (job_1)
+            (job_1_label)
+            {2013-08-12\\ --- 2015-04-02};
+        \node [bubble] at (job_2) (job_2_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_2_bubble.base]
+            at (job_2)
+            (job_2_label)
+            {2012-04-01\\ --- 2012-09-01};
+        \node [bubble] at (job_3) (job_3_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_3_bubble.base]
+            at (job_3)
+            (job_3_label)
+            {2011-03-01\\ --- 2011-09-01};
+        \draw
+            (job_0_bubble) --
+            (job_1_bubble) --
+            (job_2_bubble) --
+            (job_3_bubble);
     \end{tikzpicture}
 \end{document}
