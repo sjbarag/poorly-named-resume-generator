@@ -1,0 +1,13 @@
+((* with *))
+((* set edu = root.education *))
+\section{Education}\relax
+    \noindent\textbf{((( edu.institution )))} \small{in ((( edu.location )))}\\
+((* for study in edu.studies *))
+        ((* if study.focus *))
+    ((( study.level ))) in ((( study.area ))) (((( study.focus ))))\\
+        ((* else *))
+    ((( study.level ))) in ((( study.area )))\\
+        ((* endif *))
+((* endfor *))
+    \textbf{Cumulative GPA: ((( edu.gpa.cumulative ))) $|$ In-major: ((( edu.gpa.in_major )))}
+((* endwith *))
