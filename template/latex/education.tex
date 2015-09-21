@@ -1,7 +1,7 @@
 ((* with *))
 ((* set edu = root.education *))
 \section{Education}\relax
-    \noindent\textbf{((( edu.institution )))} \small{in ((( edu.location )))}\\
+    \textbf{((( edu.institution )))} \small{in ((( edu.location )))}\\
 ((* for study in edu.studies *))
         ((* if study.focus *))
     ((( study.level ))) in ((( study.area ))) (((( study.focus ))))\\
