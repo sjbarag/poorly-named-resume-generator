@@ -15,11 +15,15 @@
     ((* endfor *))
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
     ((* for p in positions *))
-        \node [bubble, label=left:((( "%s -- %s" | format(p.start, p.end | default("Present", true)) )))] at (job_((( loop.index0 )))) (job_((( loop.index0 )))_bubble) {};
+        \node [bubble] at (job_((( loop.index0 )))) (job_((( loop.index0 )))_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_((( loop.index0 )))_bubble.base]
+            at (job_((( loop.index0 ))))
+            (job_((( loop.index0 )))_label)
+            {((( p.start )))\\ --- ((( p.end | default("Present", true))))};
     ((* endfor *))
-    \draw
+        \draw
     ((* for p in positions *))
-        (job_((( loop.index0 )))_bubble)
+            (job_((( loop.index0 )))_bubble)
 ((*- if not loop.last *))
  --
 ((* else *))
