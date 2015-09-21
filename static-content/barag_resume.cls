@@ -112,7 +112,7 @@
 {\tikz \coordinate (#4);\relax
 {\large\emph{#1}\ }{\small in #2} \\
        #3
-  \begin{itemize*}}
+\begin{itemize*}}
 {\end{itemize*}}
 
 % ----- project entries -----
