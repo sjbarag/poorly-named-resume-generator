@@ -1,0 +1,33 @@
+((* with *))
+((* set projects = root.side_projects | sort(attribute='started', reverse=True) *))
+\section{Notable\\ Side Projects}\relax
+    ((* for p in projects *))
+    \begin{project}
+        {((( p.name )))}
+        {((( p.description )))}
+        {proj_((( loop.index0 )))}
+            Goal: ((( p.goal )))\\
+            Status: ((( p.status )))\\
+            Future: ((( p.future )))
+    \end{project}
+
+    ((* endfor *))
+    \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
+    ((* for p in projects *))
+        \node [bubble] at (proj_((( loop.index0 )))) (proj_((( loop.index0 )))_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of proj_((( loop.index0 )))_bubble.base]
+            at (proj_((( loop.index0 ))))
+            (proj_((( loop.index0 )))_label)
+            {((( p.started )))};
+    ((* endfor *))
+        \draw
+    ((* for p in projects *))
+            (proj_((( loop.index0 )))_bubble)
+((*- if not loop.last *))
+ --
+((* else *))
+;
+((* endif *))
+    ((* endfor *))
+    \end{tikzpicture}
+((* endwith *))

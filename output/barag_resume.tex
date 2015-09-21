@@ -84,6 +84,56 @@
             (job_3_bubble);
     \end{tikzpicture}
 
+\section{Notable\\ Side Projects}\relax
+    \begin{project}
+        {PNRG (Poorly Named Resume Generator)}
+        {Templated resume source generator}
+        {proj_0}
+            Goal: Reduce effort required to maintain multiple parallel resume formats\\
+            Status: In-use, not-yet published\\
+            Future: Under active development
+    \end{project}
+
+    \begin{project}
+        {Rush}
+        {POSIX shell implementation in Rust}
+        {proj_1}
+            Goal: Teach myself Rust\\
+            Status: Basic functionality complete; parser not complete\\
+            Future: Development on-hold, pending free time and Rust maturity
+    \end{project}
+
+    \begin{project}
+        {Textspansion}
+        {Text expansion for Android devices}
+        {proj_2}
+            Goal: Add missing features to Android ecosystem while learning Android dev paradigms\\
+            Status: Released June 2011\\
+            Future: Development on-hold indefinitely
+    \end{project}
+
+    \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
+        \node [bubble] at (proj_0) (proj_0_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of proj_0_bubble.base]
+            at (proj_0)
+            (proj_0_label)
+            {2015-08-25};
+        \node [bubble] at (proj_1) (proj_1_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of proj_1_bubble.base]
+            at (proj_1)
+            (proj_1_label)
+            {2015-01-09};
+        \node [bubble] at (proj_2) (proj_2_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of proj_2_bubble.base]
+            at (proj_2)
+            (proj_2_label)
+            {2011-05-04};
+        \draw
+            (proj_0_bubble) --
+            (proj_1_bubble) --
+            (proj_2_bubble);
+    \end{tikzpicture}
+    \newpage % because of the tikz-rendered bubbles, side projects **must** be on one page!
 \section{Education}\relax
     {\large\emph{Drexel University}} {\small in Philadelphia, PA} \hfill Graduated: 2013-06-13\\
     BS in Computer Engineering \hfill \emph{Cumulative GPA: 3.58 $|$ In-major: 3.63}\\
