@@ -46,7 +46,7 @@
 \geometry{top=.25in,
           bottom=.1in,
           hmargin=.4in,
-          marginparwidth=.22\textwidth,
+          marginparwidth=.25\textwidth,
           marginparsep=.05\textwidth,
           includemp, reversemp,     % Enable mergin par and move it to the left side
           letterpaper,
