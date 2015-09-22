@@ -8,8 +8,6 @@
 
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}                % It's a fancy... wait for it... header!
-\RequirePackage{marvosym}                % Provides symbols next to contact info
-\RequirePackage{ifsym}                   % Provides the house symbol next to contact info
 \RequirePackage{mdwlist}                 % itemize* and friends are more compact
 \RequirePackage{parskip}                 % Use whitespace to delimit paragraphs & prevent indentations
 \RequirePackage{multicol}                % Multiple columns for computer skills section
@@ -18,6 +16,7 @@
 \RequirePackage{tikz}                    % Draw a neat li'l timeline
 \RequirePackage{etoolbox}                % Checks for definition of things
 \RequirePackage{fontspec}                % Use fontspec for really nice fonts
+\RequirePackage{fontawesome}             % Use icons from the fontawesome project
 
 \usetikzlibrary{calc}                    % allows more precise layout in TikZ
 \usepgflibrary{arrows}                   % loads nicer arrows in PGF for the timeline
@@ -71,15 +70,6 @@
 \newcommand{\emailaddress}[1]{\def\@emailaddress{#1}}
 \newcommand{\portfolio}[1]{\def\@portfolio{#1}}
 
-% ----- tikz drawing of a house -----
-\newcommand{\tikzhome}{%
-\begin{tikzpicture}[scale=.175]
-    \draw[thin] (0,.75) -- ++(0,-.75) -- ++(1,0) -- ++(0,.75)
-        -- (1.25, .75) -- (.5, 1.25) -- (-.25, .75) -- (0,.75) -- ++(0, -.25)
-        (.35, 0) -- (.35, .5) -- (.65, .5) -- (.65, 0);
-\end{tikzpicture}%
-}
-
 % ----- fancyhdr setup -----
 \fancyheadoffset[LO,LE]{\marginparsep+\marginparwidth}        % header goes across marginpar
 \pagestyle{fancy}
@@ -89,11 +79,11 @@
 \rhead{%
     \flushright
     \begin{tabular}{r c}
-        \@ifundefined{@homeaddress} {}{\@homeaddress          & \tikzhome \\  } % house
-        \@ifundefined{@phonenumber} {}{\@phonenumber          & \Mobilefone\\ } % telephone
-        \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \Letter \\    } % envelope
-        \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \texttt{\textless \textgreater}} % <>
-    \end{tabular}\hspace{-1em}
+        \@ifundefined{@homeaddress} {}{\@homeaddress          & \faHome \\  } % house
+        \@ifundefined{@phonenumber} {}{\@phonenumber          & \faPhone\\ } % telephone
+        \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \faEnvelopeO \\    } % envelope
+        \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \faGithub} % <>
+    \end{tabular}\hspace{-1.5ex}
 }
 \cfoot{}
 
