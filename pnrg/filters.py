@@ -12,7 +12,8 @@ _LATEX_SUBS = (
     (re.compile(r'\^'), r'\^{}'),
     (re.compile(r'"'), r"''"),
     (re.compile(r'\.\.\.+'), r'\\ldots'),
-    (re.compile(r'&'), r'&')
+    (re.compile(r'&'), r'&'),
+    (re.compile(r'LaTeX'), r'\\LaTeX')
 )
 
 def escape_tex(value):
@@ -25,4 +26,3 @@ def escape_tex(value):
     for pattern, replacement in _LATEX_SUBS:
         newval = pattern.sub(replacement, newval)
     return newval
-

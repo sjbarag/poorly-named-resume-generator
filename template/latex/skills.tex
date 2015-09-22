@@ -5,7 +5,7 @@
     \begin{multicols}{2}
         \begin{csitemize}{Languages}
         ((* for lang in skills.languages *))
-            \item ((( lang )))
+            \item ((( lang | escape_tex )))
         ((* endfor *))
         \end{csitemize}
 
