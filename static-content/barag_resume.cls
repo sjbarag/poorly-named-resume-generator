@@ -111,9 +111,15 @@
 {}
 
 % ----- computer skills itemize -----
-\newenvironment{csitemize}
-{\begin{list}{\labelitemi}{\leftmargin=.5cm \itemindent=0em}}
-{\end{list}}
+\newenvironment{csitemize}[1] {
+    % put the entire list in a minpage so it doesn't get broken up
+    \begin{minipage}{\textwidth}\relax
+    \textbf{#1}
+    \begin{list}{\labelitemi}{\leftmargin=.5cm \itemindent=0em}
+} {
+    \end{list}
+    \end{minipage}
+}
 
 % ----- tikz styles for `git log --graph`-like lines -----
 \tikzstyle{every picture}+=[remember picture] % ensure overlay pictures can reference every other picture
