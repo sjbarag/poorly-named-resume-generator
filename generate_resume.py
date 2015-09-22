@@ -2,7 +2,7 @@ import argparse
 import jinja2
 import os
 import yaml
-import bnrg.filters
+import pnrg.filters
 from distutils import dir_util
 
 import logging, sys
@@ -35,13 +35,13 @@ def load_templates(_format, template_dir=os.path.join(os.getcwd(), 'template')):
         environment.comment_start_string = '((='
         environment.comment_end_string = '=))'
 
-        environment.filters['escape_tex'] = bnrg.filters.escape_tex
+        environment.filters['escape_tex'] = pnrg.filters.escape_tex
 
     _register_filters(environment)
     return environment
 
 def _register_filters(environment):
-    environment.filters['right'] = bnrg.filters.do_right
+    environment.filters['right'] = pnrg.filters.do_right
 
 
 if __name__ == "__main__":
