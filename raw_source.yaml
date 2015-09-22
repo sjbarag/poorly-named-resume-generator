@@ -33,7 +33,7 @@ positions:
         title: Software Development Engineer II
         team: Marketplace Shipping Services
         responsibilities:
-            - Led, Designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
+            - Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
             - Provided external developer support during public beta of shipping label web service
             - Coordinated team of six developers in working in parallel in same codebase
     - &amazon_mss_sde1

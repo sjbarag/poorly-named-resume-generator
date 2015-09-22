@@ -11,7 +11,7 @@ EXPERIENCE
     2015-04-02  o  Amazon.com in Seattle, WA
      - Present  |  Software Development Engineer II with Marketplace Shipping
                 |  Services
-                |    * Led, Designed, implemented, and launched new public web
+                |    * Led, designed, implemented, and launched new public web
                 |      service to purchase shipping labels for Amazon orders
                 |    * Provided external developer support during public beta
                 |      of shipping label web service
