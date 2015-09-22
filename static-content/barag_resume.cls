@@ -89,7 +89,6 @@
 
 \addtolength{\headheight}{\baselineskip*2}  % add extra space after header rule
 \renewcommand{\headrulewidth}{.6pt}         % thicken the header rule
-\addtolength{\parskip}{4pt}                 % expand space between paragraphs just a touch
 \setlength{\footskip}{0pt}
 
 % ----- resume section titles -----
