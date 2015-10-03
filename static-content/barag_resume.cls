@@ -17,29 +17,10 @@
 \RequirePackage{etoolbox}                % Checks for definition of things
 \RequirePackage{fontspec}                % Use fontspec for really nice fonts
 \RequirePackage{fontawesome}             % Use icons from the fontawesome project
+\RequirePackage[default, lining]{sourcesanspro}
 
 \usetikzlibrary{calc}                    % allows more precise layout in TikZ
 \usepgflibrary{arrows}                   % loads nicer arrows in PGF for the timeline
-
-% ----- set up fonts -----
-\newfontfamily{\sspb}[Ligatures=TeX, UprightFont={* Semibold}]{Source Sans Pro}
-\setsansfont
-    [Ligatures=TeX, % recommended
-     UprightFont={* Light},
-     ItalicFont={* Italic},
-     BoldFont={*},
-     BoldItalicFont={* Semibold Italic}]
-    {Source Sans Pro}
-\newcommand{\sspbold}[1]{{\sspb#1}}
-
-%\setsansfont
-%    [Ligatures=TeX, % recommended
-%     UprightFont={* Condensed},
-%     ItalicFont={* Oblique},
-%     BoldFont={* Bold},
-%     BoldItalicFont={* Bold Oblique}]
-%    {DejaVu Sans}
-\renewcommand*\familydefault{\sfdefault} % apply linux biolinum (sans-serif)
 
 % ----- set up document geometry -----
 \geometry{top=.25in,
@@ -92,8 +73,8 @@
 \setlength{\footskip}{0pt}
 
 % ----- resume section titles -----
-\renewcommand*{\section}[1]{%
-    \hspace{0pt}\marginpar{\sspbold{#1}}\relax
+\renewcommand*{\section}[1]{
+    \hspace{0pt}\marginpar{\textbf{#1}}\relax
 }
 
 % ----- job entries -----
