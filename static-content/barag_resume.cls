@@ -58,7 +58,6 @@
     \Huge \textbf{\@author}
 }
 \rhead{%
-    \flushright
     \begin{tabular}{r c}
         \@ifundefined{@homeaddress} {}{\@homeaddress          & \faHome \\  } % house
         \@ifundefined{@phonenumber} {}{\@phonenumber          & \faPhone\\ } % telephone
@@ -93,7 +92,7 @@
 
 % ----- computer skills itemize -----
 \newenvironment{csitemize}[1] {
-    % put the entire list in a minpage so it doesn't get broken up
+    % put the entire list in a minipage so it doesn't get broken up
     \begin{minipage}{\textwidth}\relax
     \textbf{#1}
     \begin{list}{\labelitemi}{\leftmargin=.5cm \itemindent=0em}
