@@ -13,7 +13,7 @@ _LATEX_SUBS = (
     (re.compile(r'"'), r"''"),
     (re.compile(r'\.\.\.+'), r'\\ldots'),
     (re.compile(r'&'), r'&'),
-    (re.compile(r'LaTeX'), r'\\LaTeX')
+    (re.compile(r'LaTeX'), r'\\textrm{\\LaTeX}')
 )
 
 def escape_tex(value):
