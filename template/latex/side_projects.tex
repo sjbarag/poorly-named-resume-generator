@@ -18,7 +18,7 @@
         \node [align=right, text width=3cm, base left=2ex of proj_((( loop.index0 )))_bubble.base]
             at (proj_((( loop.index0 ))))
             (proj_((( loop.index0 )))_label)
-            {((( p.started )))};
+            {\small ((( p.started | strftime )))};
     ((* endfor *))
         \draw
     ((* for p in projects *))

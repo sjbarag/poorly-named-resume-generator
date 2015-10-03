@@ -19,7 +19,7 @@
         \node [align=right, text width=3cm, base left=2ex of job_((( loop.index0 )))_bubble.base]
             at (job_((( loop.index0 ))))
             (job_((( loop.index0 )))_label)
-            {((( p.start )))\\ --- ((( p.end | default("Present", true))))};
+            {\small ((( p.start | strftime )))\\ --- ((( p.end | strftime | default("Present", true))))};
     ((* endfor *))
         \draw
     ((* for p in positions *))
