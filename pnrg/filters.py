@@ -1,5 +1,5 @@
 from jinja2._compat import text_type
-from datetime import datetime
+import datetime
 import re
 
 def do_right(value, width=80):
@@ -32,4 +32,7 @@ def strftime(value, _format="%b %Y"):
     """
     Formats a datetime object into a string.  Just a simple facade around datetime.strftime.
     """
-    return value.strftime(_format)
+    if isinstance(value, datetime.date):
+        return value.strftime(_format)
+    else:
+        return value
