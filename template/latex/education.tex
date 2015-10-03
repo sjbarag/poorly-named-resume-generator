@@ -1,7 +1,7 @@
 ((* with *))
 ((* set edu = root.education *))
 \section{Education}\relax
-    {\large\emph{((( edu.institution )))}} {\small in ((( edu.location )))} \hfill Graduated: ((( edu.graduation )))\\
+    {\large\textbf{((( edu.institution )))}} --- Graduated ((( edu.graduation | strftime ))) \hfill{\small ((( edu.location )))}\\
 ((* for study in edu.studies *))
         ((* if study.focus *))
     ((( study.level ))) in ((( study.area ))) ((( "(%s)" | format(study.focus)  )))

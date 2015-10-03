@@ -80,7 +80,7 @@
 % ----- job entries -----
 \newenvironment{job}[4]
 {\tikz \coordinate (#4);\relax
-{\large\emph{#1}\ }{\small in #2} \\
+{\large\textbf{#1}}{\small\hfill#2} \\
        #3
 \begin{itemize*}}
 {\end{itemize*}}
@@ -88,7 +88,7 @@
 % ----- project entries -----
 \newenvironment{project}[3]
 {\tikz \coordinate (#3);\relax
-{\large\emph{#1}} --- #2\\}
+{\large\textbf{#1}} --- #2\\}
 {}
 
 % ----- computer skills itemize -----
