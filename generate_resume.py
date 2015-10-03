@@ -42,6 +42,7 @@ def load_templates(_format, template_dir=os.path.join(os.getcwd(), 'template')):
 
 def _register_filters(environment):
     environment.filters['right'] = pnrg.filters.do_right
+    environment.filters['strftime'] = pnrg.filters.strftime
 
 
 if __name__ == "__main__":

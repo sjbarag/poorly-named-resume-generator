@@ -1,4 +1,5 @@
 from jinja2._compat import text_type
+from datetime import datetime
 import re
 
 def do_right(value, width=80):
@@ -26,3 +27,9 @@ def escape_tex(value):
     for pattern, replacement in _LATEX_SUBS:
         newval = pattern.sub(replacement, newval)
     return newval
+
+def strftime(value, _format="%b %Y"):
+    """
+    Formats a datetime object into a string.  Just a simple facade around datetime.strftime.
+    """
+    return value.strftime(_format)
