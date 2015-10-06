@@ -60,12 +60,12 @@ positions:
         title: Coop Technical Senior
         team: Information Assurance (IA)
         responsibilities:
-            - Scan mission-critical systems for vulnerabilities with automated and manual tools
-            - Harden mission-critical systems by applying updates and patches
-            - Research new scanning software to comply with new DoD standards requirements
-            - Write Excel plugin to automatically format data for vulnerability reports
-            - Coordinate with senior engineers and senior executives for weekly status updates
-            - Create departmental wiki for tool documentation and usage tips
+            - Scanned mission-critical systems for vulnerabilities using automated and manual tools
+            - Hardened mission-critical systems by applying updates and patches
+            - Researched new scanning software to comply with emerging DoD standards requirements
+            - Wrote Excel plugin to automatically format data for vulnerability reports
+            - Coordinated with senior engineers and senior executives for weekly status updates
+            - Created departmental wiki for tool documentation and usage tips
     - &lockheed_ciit
         company: Lockheed Martin MS2
         location: Moorestown, NJ
