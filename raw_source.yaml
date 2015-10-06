@@ -127,6 +127,5 @@ skills:
     paradigms:
         - Distributed systems
         - Service-Oriented Architectures (SOA)
-        - Relational databases
-        - Nonrelational databases
+        - SQL and NoSQL databases
 ...
