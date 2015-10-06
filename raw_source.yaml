@@ -26,7 +26,7 @@ education:
     graduation: 2013-06-13
 
 positions:
-    - &amazon_mss_sd2
+    - &amazon_mss_sde2
         company: Amazon.com
         location: Seattle, WA
         start: 2015-04-02
@@ -34,8 +34,9 @@ positions:
         team: Marketplace Shipping Services
         responsibilities:
             - Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
-            - Provided external developer support during public beta of shipping label web service
-            - Coordinated team of six developers in working in parallel in same codebase
+            - Provided external developer support during six months of public beta of shipping label web service
+            - Coordinated team of six developers working simultaneously in new codebase
+
     - &amazon_mss_sde1
         company: Amazon.com
         location: Seattle, WA
