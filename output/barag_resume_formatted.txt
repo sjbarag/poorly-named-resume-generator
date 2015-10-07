@@ -101,5 +101,32 @@ EDUCATION
 
 SKILLS
 
+                 Languages:
+                     * Bash/POSIX shells
+                     * C
+                     * Java
+                     * LaTeX
+                     * Python
+                     * Perl (forever rusty)
+                     * Rust (casual observer)
+
+                 Tools:
+                     * vim
+                     * GNU coreutils
+                     * git, mercurial
+                     * Spring
+                     * Django
+                     * AWS S3, DyamoDB, SQS, SNS
+
+                 Paradigms:
+                     * Distributed systems
+                     * Service-Oriented Architectures (SOA)
+                     * SQL and NoSQL databases
+
+                 Operating Systems:
+                     * Linux (Arch, Debian, Fedora, RHEL, Ubuntu)
+                     * Unix (Solaris 9)
+                     * Mac OS (10.5, 10.6)
+
 
               Generated with PNRG (Poorly Named Resume Generator)               

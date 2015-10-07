@@ -1,0 +1,21 @@
+{% set left_col = 16 %}
+
+                 Languages:
+{% for lang in skills.languages %}
+                     * {{ lang }}
+{% endfor %}
+
+                 Tools:
+{% for tool in skills.tools %}
+                     * {{ tool }}
+{% endfor %}
+
+                 Paradigms:
+{% for paradigm in skills.paradigms %}
+                     * {{ paradigm }}
+{% endfor %}
+
+                 Operating Systems:
+{% for os in skills.operating_systems %}
+                     * {{ os }}
+{% endfor %}
