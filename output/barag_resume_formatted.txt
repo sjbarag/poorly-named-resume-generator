@@ -76,22 +76,18 @@ NOTABLE SIDE PROJECTS
                 |  source generator
                 |    * Goal:    Reduce effort required to maintain multiple
                 |               parallel resume formats
-                |    * Status:  In-use, not-yet published;
-                |    * Future:  Under active development
+                |    * Status:  In-use and published
                 |
     2015-01-09  o  Rush - POSIX shell implementation in Rust
                 |    * Goal:    Teach myself Rust
-                |    * Status:  Basic functionality complete; parser not
-                |               complete
-                |    * Future:  Development on-hold, pending free time and Rust
-                |               maturity
+                |    * Status:  Basic functionality complete, parser shelved
+                |               pending free time
                 |
     2011-05-04  o  Textspansion - Text expansion for Android devices
                 |    * Goal:    Add missing features to Android ecosystem while
                 |               learning Android dev paradigms
                 |    * Status:  Released June 2011, featured on Lifehacker.com
                 |               in Sept 2011
-                |    * Future:  Unsupported since 2014
 
 EDUCATION
 

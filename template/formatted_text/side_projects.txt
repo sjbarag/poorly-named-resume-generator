@@ -9,5 +9,4 @@
 {{ "%s  o" | format(p.started) | right(left_col+1) }}  {{ "%s - %s" | format(p.name, p.description) | wordwrap(59, wrapstring=title_wrap) | indent(2)}}
 {{ "|    * Goal:   "   | indent(left_col, true)}} {{ p.goal | wordwrap(project_metadata, wrapstring=goal_wrap | indent(left_col)) }}
 {{ "|    * Status: "   | indent(left_col, true)}} {{ p.status | wordwrap(project_metadata, wrapstring=goal_wrap | indent(left_col)) }}
-{{ "|    * Future: "   | indent(left_col, true)}} {{ p.future | wordwrap(project_metadata, wrapstring=goal_wrap | indent(left_col)) }}
 {% endfor %}

@@ -53,20 +53,17 @@ NOTABLE SIDE PROJECTS
 o PNRG (Poorly Named Resume Generator) - Templated resume source generator
 | * Started: 2015-08-25
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
-| * Status: In-use, not-yet published;
-| * Future: Under active development
+| * Status: In-use and published
 |
 o Rush - POSIX shell implementation in Rust
 | * Started: 2015-01-09
 | * Goal: Teach myself Rust
-| * Status: Basic functionality complete; parser not complete
-| * Future: Development on-hold, pending free time and Rust maturity
+| * Status: Basic functionality complete, parser shelved pending free time
 |
 o Textspansion - Text expansion for Android devices
 | * Started: 2011-05-04
 | * Goal: Add missing features to Android ecosystem while learning Android dev paradigms
 | * Status: Released June 2011, featured on Lifehacker.com in Sept 2011
-| * Future: Unsupported since 2014
 
 EDUCATION
 * Drexel University in Philadelphia, PA
