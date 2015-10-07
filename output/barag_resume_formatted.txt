@@ -6,8 +6,6 @@
 --------------------------------------------------------------------------------
 
 EXPERIENCE
-                ^
-                |
     2015-04-02  o  Amazon.com in Seattle, WA
      - Present  |  Software Development Engineer II with Marketplace Shipping
                 |  Services
@@ -67,6 +65,7 @@ EXPERIENCE
                 |    * Refreshed firmware update procedure deployed to soldiers
                 |      and used on 100+ systems within LM
                 |    * All work used on US Government Secret classified systems
+
 
 NOTABLE SIDE PROJECTS
 
