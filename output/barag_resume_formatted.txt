@@ -86,15 +86,13 @@ NOTABLE SIDE PROJECTS
                 |    * Status:  Released June 2011, featured on Lifehacker.com
                 |               in Sept 2011
 
-EDUCATION
 
-                ^
-                |
-    2013-06-13  o  Drexel University in Philadelphia, PA
-                |    * BS in Computer Engineering 
-                |    * BS in Electrical Engineering (Electronics)
-                |    * Minor in Computer Science 
-                |    * Cumulative GPA: 3.58 | In-major: 3.63
+EDUCATION
+                 Drexel University in Philadelphia, PA -- Graduated Jun 2013
+                     * BS in Computer Engineering 
+                     * BS in Electrical Engineering (Electronics)
+                     * Minor in Computer Science 
+                     * Cumulative GPA: 3.58 | In-major: 3.63
 
 SKILLS
 
