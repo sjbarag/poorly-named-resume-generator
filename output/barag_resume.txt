@@ -9,7 +9,7 @@ Sean Barag
 EXPERIENCE
 o Amazon.com in Seattle, WA
 | Software Development Engineer II with Marketplace Shipping Services
-| 2015-04-02 - Present
+| Apr 2015 - Present
 |
 | * Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
 | * Provided external developer support during six months of public beta of shipping label web service
@@ -17,7 +17,7 @@ o Amazon.com in Seattle, WA
 |
 o Amazon.com in Seattle, WA
 | Software Development Engineer I with Marketplace Shipping Services
-| 2013-08-12 - 2015-04-02
+| Aug 2013 - Apr 2015
 |
 | * Wrote script to find fatal error root-causes in logs across three web services
 | * Reduced fatal errors from 1,100 per million requests to 200
@@ -29,7 +29,7 @@ o Amazon.com in Seattle, WA
 |
 o Lockheed Martin MS2 in Moorestown, NJ
 | Senior Technical Co-Op with Information Assurance (IA)
-| 2012-04-01 - 2012-09-01
+| Apr 2012 - Sep 2012
 |
 | * Scanned mission-critical systems for vulnerabilities using automated and manual tools
 | * Hardened mission-critical systems by applying updates and patches
@@ -40,7 +40,7 @@ o Lockheed Martin MS2 in Moorestown, NJ
 |
 o Lockheed Martin MS2 in Moorestown, NJ
 | Senior Technical Co-Op with Computer Infrastructure & Integration Testing
-| 2011-03-01 - 2011-09-01
+| Mar 2011 - Sep 2011
 |
 | * Wrote Bash scripts to expedite deployment and integration processes
 | * Developed, tested, and documented backup procedures for servers, diskless & iSCSI disk-based nodes
@@ -51,27 +51,26 @@ o Lockheed Martin MS2 in Moorestown, NJ
 
 NOTABLE SIDE PROJECTS
 o PNRG (Poorly Named Resume Generator) - Templated resume source generator
-| * Started: 2015-08-25
+| * Started: Aug 2015
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
 | * Status: In-use and published
 |
 o Rush - POSIX shell implementation in Rust
-| * Started: 2015-01-09
+| * Started: Jan 2015
 | * Goal: Teach myself Rust
 | * Status: Basic functionality complete, parser shelved pending free time
 |
 o Textspansion - Text expansion for Android devices
-| * Started: 2011-05-04
+| * Started: May 2011
 | * Goal: Add missing features to Android ecosystem while learning Android dev paradigms
 | * Status: Released June 2011, featured on Lifehacker.com in Sept 2011
 
 EDUCATION
-* Drexel University in Philadelphia, PA
+* Drexel University in Philadelphia, PA -- Graduated Jun 2013
 * BS in Computer Engineering
 * BS in Electrical Engineering (Electronics)
 * Minor in Computer Science
 * Cumulative GPA: 3.58 | In-major: 3.63
-* Graduated 2013-06-13
 
 SKILLS
 Languages:
