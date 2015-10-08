@@ -3,8 +3,8 @@
 {% set left_col = 16 %}
 {% set right_col = 80 - (left_col + 1) %}
 {% for p in positions %}
-{{   "%s  o" | format(p.start) | right(left_col+1) }}  {{ "%s in %s" | format(p.company, p.location) }}
-{{ "- %s  |" | format(p.end | default("Present")) | right(left_col+1) }}  {{ "%s with %s" | format(p.title, p.team) | wordwrap(59, wrapstring=title_wrap) | indent(2)}}
+{{   "%s  o" | format(p.start | strftime) | right(left_col+1) }}  {{ "%s in %s" | format(p.company, p.location) }}
+{{ "- %s  |" | format(p.end | strftime | default("Present")) | right(left_col+1) }}  {{ "%s with %s" | format(p.title, p.team) | wordwrap(59, wrapstring=title_wrap) | indent(2)}}
     {% for r in p.responsibilities %}
 {{ "|    *" | indent(left_col,true) }} {{ r | wordwrap(56, wrapstring=responsibility_wrap | indent(left_col)) }}
     {% endfor %}

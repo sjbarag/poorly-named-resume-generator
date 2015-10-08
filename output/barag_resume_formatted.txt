@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 EXPERIENCE
-    2015-04-02  o  Amazon.com in Seattle, WA
+      Apr 2015  o  Amazon.com in Seattle, WA
      - Present  |  Software Development Engineer II with Marketplace Shipping
                 |  Services
                 |    * Led, designed, implemented, and launched new public web
@@ -16,8 +16,8 @@ EXPERIENCE
                 |    * Coordinated team of six developers working
                 |      simultaneously in new codebase
                 |
-    2013-08-12  o  Amazon.com in Seattle, WA
-  - 2015-04-02  |  Software Development Engineer I with Marketplace Shipping
+      Aug 2013  o  Amazon.com in Seattle, WA
+    - Apr 2015  |  Software Development Engineer I with Marketplace Shipping
                 |  Services
                 |    * Wrote script to find fatal error root-causes in logs
                 |      across three web services
@@ -35,8 +35,8 @@ EXPERIENCE
                 |    * Identified multiple production security vulnerabilities;
                 |      critical vulnerability fixed in prod within 24 hours
                 |
-    2012-04-01  o  Lockheed Martin MS2 in Moorestown, NJ
-  - 2012-09-01  |  Senior Technical Co-Op with Information Assurance (IA)
+      Apr 2012  o  Lockheed Martin MS2 in Moorestown, NJ
+    - Sep 2012  |  Senior Technical Co-Op with Information Assurance (IA)
                 |    * Scanned mission-critical systems for vulnerabilities
                 |      using automated and manual tools
                 |    * Hardened mission-critical systems by applying updates
@@ -50,8 +50,8 @@ EXPERIENCE
                 |    * Created departmental wiki for tool documentation and
                 |      usage tips
                 |
-    2011-03-01  o  Lockheed Martin MS2 in Moorestown, NJ
-  - 2011-09-01  |  Senior Technical Co-Op with Computer Infrastructure &
+      Mar 2011  o  Lockheed Martin MS2 in Moorestown, NJ
+    - Sep 2011  |  Senior Technical Co-Op with Computer Infrastructure &
                 |  Integration Testing
                 |    * Wrote Bash scripts to expedite deployment and
                 |      integration processes
@@ -69,18 +69,18 @@ EXPERIENCE
 
 NOTABLE SIDE PROJECTS
 
-    2015-08-25  o  PNRG (Poorly Named Resume Generator) - Templated resume
+      Aug 2015  o  PNRG (Poorly Named Resume Generator) - Templated resume
                 |  source generator
                 |    * Goal:    Reduce effort required to maintain multiple
                 |               parallel resume formats
                 |    * Status:  In-use and published
                 |
-    2015-01-09  o  Rush - POSIX shell implementation in Rust
+      Jan 2015  o  Rush - POSIX shell implementation in Rust
                 |    * Goal:    Teach myself Rust
                 |    * Status:  Basic functionality complete, parser shelved
                 |               pending free time
                 |
-    2011-05-04  o  Textspansion - Text expansion for Android devices
+      May 2011  o  Textspansion - Text expansion for Android devices
                 |    * Goal:    Add missing features to Android ecosystem while
                 |               learning Android dev paradigms
                 |    * Status:  Released June 2011, featured on Lifehacker.com
