@@ -1,11 +1,13 @@
-{% set title_wrap = "\n" + " "*14 + "|  " %}
-{% set goal_wrap = "\n" + "|" + " "*15 %}
-{% set left_col = 16 %}
-{% set project_metadata = 47 %}
+{% with side_projects = root.side_projects %}
+    {% set title_wrap = "\n" + " "*14 + "|  " %}
+    {% set goal_wrap = "\n" + "|" + " "*15 %}
+    {% set left_col = 16 %}
+    {% set project_metadata = 47 %}
 
-{% for p in side_projects|sort(attribute='started', reverse=True) %}
+    {% for p in side_projects|sort(attribute='started', reverse=True) %}
 {{ "%s  o" | format(p.started | strftime) | right(left_col+1) }}  {{ "%s - %s" | format(p.name, p.description) | wordwrap(59, wrapstring=title_wrap) | indent(2)}}
 {{ "|    * Goal:   "   | indent(left_col, true)}} {{ p.goal | wordwrap(project_metadata, wrapstring=goal_wrap | indent(left_col)) }}
 {{ "|    * Status: "   | indent(left_col, true)}} {{ p.status | wordwrap(project_metadata, wrapstring=goal_wrap | indent(left_col)) }}
 {{ "|" | indent(left_col,true) if not loop.last }}
-{% endfor %}
+    {% endfor %}
+{% endwith %}

@@ -1,5 +1,7 @@
+{% with education = root.education %}
                  {{ education.institution }} in {{ education.location }} -- Graduated {{ education.graduation | strftime }}
-{% for study in education.studies %}
+    {% for study in education.studies %}
                      * {{ study.level}} in {{ study.area }} {{ "(%s)" % study.focus if study.focus }}
-{% endfor %}
+    {% endfor %}
                      * Cumulative GPA: {{ education.gpa.cumulative }} | In-major: {{ education.gpa.in_major }}
+{% endwith %}
