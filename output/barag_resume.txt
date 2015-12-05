@@ -14,6 +14,7 @@ o Amazon.com in Seattle, WA
 | * Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
 | * Provided external developer support during six months of public beta of shipping label web service
 | * Coordinated team of six developers working simultaneously in new codebase
+| * Supported and advised team of developers based in India for contributions to my team's codebase
 |
 o Amazon.com in Seattle, WA
 | Software Development Engineer I with Marketplace Shipping Services

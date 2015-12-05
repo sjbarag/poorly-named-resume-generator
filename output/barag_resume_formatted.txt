@@ -15,6 +15,8 @@ EXPERIENCE
                 |      public beta of shipping label web service
                 |    * Coordinated team of six developers working
                 |      simultaneously in new codebase
+                |    * Supported and advised team of developers based in India
+                |      for contributions to my team's codebase
                 |
       Aug 2013  o  Amazon.com in Seattle, WA
     - Apr 2015  |  Software Development Engineer I with Marketplace Shipping
