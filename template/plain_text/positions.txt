@@ -1,3 +1,4 @@
+{% with positions = root.positions %}
 {% for position in positions %}
 o {{ position.company }} in {{ position.location }}
 | {{ position.title }} with {{ position.team }}
@@ -14,3 +15,4 @@ o {{ position.company }} in {{ position.location }}
 |
     {% endif %}
 {% endfor %}
+{% endwith %}

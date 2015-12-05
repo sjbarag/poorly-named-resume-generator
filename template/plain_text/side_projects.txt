@@ -1,4 +1,5 @@
-{% for project in side_projects|sort(attribute='started', reverse=True) %}
+{% with side_projects = root.side_projects %}
+{% for project in side_projects | sort(attribute='started', reverse=True) %}
 o {{ project.name }} - {{ project.description }}
 | * Started: {{ project.started | strftime }}
 | * Goal: {{ project.goal }}
@@ -7,3 +8,4 @@ o {{ project.name }} - {{ project.description }}
 |
 {% endif %}
 {% endfor %}
+{% endwith %}

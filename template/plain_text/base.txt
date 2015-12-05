@@ -1,19 +1,13 @@
-{% set author = root.author %}
 {% include 'plain_text/author.txt' %}
 
-
 EXPERIENCE
-{% set positions = root.positions %}
 {% include 'plain_text/positions.txt' %}
 
 NOTABLE SIDE PROJECTS
-{% set side_projects = root.side_projects %}
 {% include 'plain_text/side_projects.txt' %}
 
 EDUCATION
-{% set education = root.education %}
 {% include 'plain_text/education.txt' %}
-
 
 SKILLS
 {% set skills = root.skills %}

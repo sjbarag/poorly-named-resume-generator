@@ -1,3 +1,4 @@
+{% with author = root.author %}
 {{ "-" * author.name|length }}
 {{ author.name }}
 {{ "-" * author.name|length }}
@@ -5,3 +6,4 @@
  #: {{ author.phone }}
  @: {{ author.email }}
 <>: http://{{ author.website }}
+{% endwith %}
