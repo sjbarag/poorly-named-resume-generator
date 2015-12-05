@@ -5,3 +5,4 @@ output/*.cls
 output/*.log
 output/*.out
 output/*.aux
+build/
