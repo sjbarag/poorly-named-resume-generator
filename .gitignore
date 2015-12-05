@@ -1,6 +1,7 @@
 **/*.swo
 **/*.swp
 **/__pycache__
+**/*.pyc
 **/*~
 output/*.cls
 output/*.log
