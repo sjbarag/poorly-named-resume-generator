@@ -4,7 +4,7 @@
 \LoadClass{article}
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{barag_resume}[09/21/2015 - Sean Barag's resume/cv class]
+\ProvidesClass{barag_resume}[12/05/2015 - Sean Barag's resume/cv class]
 
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}                % It's a fancy... wait for it... header!
@@ -17,6 +17,7 @@
 \RequirePackage{etoolbox}                % Checks for definition of things
 \RequirePackage{fontspec}                % Use fontspec for really nice fonts
 \RequirePackage{fontawesome}             % Use icons from the fontawesome project
+\RequirePackage{textcomp}                % Provides better diacritics
 \RequirePackage[default, lining]{sourcesanspro}
 
 \usetikzlibrary{calc}                    % allows more precise layout in TikZ
