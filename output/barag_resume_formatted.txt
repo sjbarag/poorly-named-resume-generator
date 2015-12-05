@@ -27,8 +27,8 @@ EXPERIENCE
                 |      data
                 |    * Contributed new library to Amazon community to set
                 |      outgoing request ID for web service calls
-                |    * Developed and maintained Java service that processed 28
-                |      requests per-second (peak)
+                |    * Developed and maintained Java service capable of
+                |      processing ~1,000 requests per-second (peak)
                 |    * Designed an asynchronous workflow-based service to
                 |      purchase up to 500 shipping labels and merge into single
                 |      PDF
