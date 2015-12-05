@@ -1,5 +1,4 @@
-((* with *))
-((* set positions = root.positions *))
+((* with positions = root.positions *))
 \section{Experience}\relax
     \renewcommand{\labelitemi}{$\cdot$}\relax % use cdot as a bullet.  it's less obvious
     ((* for p in positions *))
@@ -24,11 +23,11 @@
         \draw
     ((* for p in positions *))
             (job_((( loop.index0 )))_bubble)
-((*- if not loop.last *))
+        ((*- if not loop.last *))
  --
-((* else *))
+        ((* else *))
 ;
-((* endif *))
+        ((* endif *))
     ((* endfor *))
     \end{tikzpicture}
 ((* endwith *))

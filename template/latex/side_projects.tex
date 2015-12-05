@@ -1,5 +1,4 @@
-((* with *))
-((* set projects = root.side_projects | sort(attribute='started', reverse=True) *))
+((* with projects = root.side_projects | sort(attribute='started', reverse=True) *))
 \section{Notable\\ Side Projects}\relax
     ((* for p in projects *))
     \begin{project}
@@ -22,11 +21,11 @@
         \draw
     ((* for p in projects *))
             (proj_((( loop.index0 )))_bubble)
-((*- if not loop.last *))
+        ((*- if not loop.last *))
  --
-((* else *))
+        ((* else *))
 ;
-((* endif *))
+        ((* endif *))
     ((* endfor *))
     \end{tikzpicture}
 ((* endwith *))
