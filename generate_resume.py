@@ -67,7 +67,7 @@ if __name__ == "__main__":
         # removing the entire output directory every time just to use the convenient copytree() is confusing for users.
         dir_util.copy_tree('./static-content', args.destination, update=True)
 
-        raw = yaml.load(source_file)
+        raw = yaml.safe_load(source_file)
 
         # generate all requested formats
         for doc_format in args.formats:
