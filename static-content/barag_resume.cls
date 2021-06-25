@@ -16,7 +16,7 @@
 \RequirePackage{tikz}                    % Draw a neat li'l timeline
 \RequirePackage{etoolbox}                % Checks for definition of things
 \RequirePackage{fontspec}                % Use fontspec for really nice fonts
-\RequirePackage{fontawesome}             % Use icons from the fontawesome project
+\RequirePackage[fixed]{fontawesome5}     % Use icons from the fontawesome project
 \RequirePackage{textcomp}                % Provides better diacritics
 \RequirePackage[default, lining]{sourcesanspro}
 
@@ -62,8 +62,8 @@
     \begin{tabular}{r c}
         \@ifundefined{@homeaddress} {}{\@homeaddress          & \faHome \\  } % house
         \@ifundefined{@phonenumber} {}{\@phonenumber          & \faPhone\\ } % telephone
-        \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \faEnvelopeO \\    } % envelope
-        \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \faGithub} % <>
+        \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \faEnvelope[regular] \\ } % envelope
+        \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \faGithub} % github
     \end{tabular}\hspace{-1.5ex}
 }
 \cfoot{}
