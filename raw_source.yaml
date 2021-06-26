@@ -59,13 +59,6 @@ positions:
         end: 2012-09-01
         title: Senior Technical Co-Op
         team: Information Assurance (IA)
-        responsibilities:
-            - Scanned mission-critical systems for vulnerabilities using automated and manual tools
-            - Hardened mission-critical systems by applying updates and patches
-            - Researched new scanning software to comply with emerging DoD standards requirements
-            - Wrote Excel plugin to automatically format data for vulnerability reports
-            - Coordinated with senior engineers and senior executives for weekly status updates
-            - Created departmental wiki for tool documentation and usage tips
     - &lockheed_ciit
         company: Lockheed Martin MS2
         location: Moorestown, NJ
@@ -73,13 +66,6 @@ positions:
         end: 2011-09-01
         title: Senior Technical Co-Op
         team: Computer Infrastructure & Integration Testing
-        responsibilities:
-            - Wrote Bash scripts to expedite deployment and integration processes
-            - Developed, tested, and documented backup procedures for servers, diskless & iSCSI disk-based nodes
-            - Worked alongside Senior Engineers in development of Cisco IOS applet to monitor memory cards containing critical ship status information
-            - Wrote VBA script to categorize 4000+ pieces of equipment for proposal
-            - Refreshed firmware update procedure deployed to soldiers and used on 100+ systems within LM
-            - All work used on US Government Secret classified systems
 
 side_projects:
     - &pnrg
