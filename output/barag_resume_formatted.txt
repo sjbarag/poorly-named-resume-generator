@@ -6,8 +6,17 @@
 --------------------------------------------------------------------------------
 
 EXPERIENCE
+      Mar 2020  o  Hulu, LLC in Seattle, WA
+     - Present  |  Principal Software Developer with Living Room
+                |
+      Mar 2018  o  Hulu, LLC in Seattle, WA
+    - Mar 2020  |  Senior Software Developer with Living Room
+                |
+      Mar 2016  o  Hulu, LLC in Seattle, WA
+    - Mar 2018  |  Software Developer with Living Room
+                |
       Apr 2015  o  Amazon.com in Seattle, WA
-     - Present  |  Software Development Engineer II with Marketplace Shipping
+    - Mar 2016  |  Software Development Engineer II with Marketplace Shipping
                 |  Services
                 |    * Led, designed, implemented, and launched new public web
                 |      service to purchase shipping labels for Amazon orders
@@ -47,22 +56,30 @@ EXPERIENCE
 
 NOTABLE SIDE PROJECTS
 
+      Oct 2020  o  thcon - A configurable CLI tool that switches multiple apps
+                |  between light and dark themes
+                |    * Goal:    See my screen better in the sun with fewer
+                |               steps, teach myself Rust
+                |    * Status:  Published and actively developed
+                |
+      Dec 2017  o  brs - BrightScript interpreter implemented in TypeScript
+                |    * Goal:    Enable off-device testing by implementing
+                |               (from-scratch) the language Roku apps are
+                |               written in
+                |    * Status:  Maintained with other Hulugans and in active
+                |               use
+                |
       Aug 2015  o  PNRG (Poorly Named Resume Generator) - Templated resume
                 |  source generator
                 |    * Goal:    Reduce effort required to maintain multiple
                 |               parallel resume formats
-                |    * Status:  In-use and published
-                |
-      Jan 2015  o  Rush - POSIX shell implementation in Rust
-                |    * Goal:    Teach myself Rust
-                |    * Status:  Basic functionality complete, parser shelved
-                |               pending free time
+                |    * Status:  Frozen; updated as-needed
                 |
       May 2011  o  Textspansion - Text expansion for Android devices
                 |    * Goal:    Add missing features to Android ecosystem while
                 |               learning Android dev paradigms
                 |    * Status:  Released June 2011, featured on Lifehacker.com
-                |               in Sept 2011
+                |               in Sept 2011, now deprecated
 
 
 EDUCATION

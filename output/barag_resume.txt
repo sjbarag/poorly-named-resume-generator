@@ -7,9 +7,21 @@ Sean Barag
 <>: http://github.com/sjbarag
 
 EXPERIENCE
+o Hulu, LLC in Seattle, WA
+| Principal Software Developer with Living Room
+| Mar 2020 - Present
+|
+o Hulu, LLC in Seattle, WA
+| Senior Software Developer with Living Room
+| Mar 2018 - Mar 2020
+|
+o Hulu, LLC in Seattle, WA
+| Software Developer with Living Room
+| Mar 2016 - Mar 2018
+|
 o Amazon.com in Seattle, WA
 | Software Development Engineer II with Marketplace Shipping Services
-| Apr 2015 - Present
+| Apr 2015 - Mar 2016
 |
 | * Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
 | * Provided external developer support during six months of public beta of shipping label web service
@@ -37,20 +49,25 @@ o Lockheed Martin MS2 in Moorestown, NJ
 | Mar 2011 - Sep 2011
 
 NOTABLE SIDE PROJECTS
+o thcon - A configurable CLI tool that switches multiple apps between light and dark themes
+| * Started: Oct 2020
+| * Goal: See my screen better in the sun with fewer steps, teach myself Rust
+| * Status: Published and actively developed
+|
+o brs - BrightScript interpreter implemented in TypeScript
+| * Started: Dec 2017
+| * Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in
+| * Status: Maintained with other Hulugans and in active use
+|
 o PNRG (Poorly Named Resume Generator) - Templated resume source generator
 | * Started: Aug 2015
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
-| * Status: In-use and published
-|
-o Rush - POSIX shell implementation in Rust
-| * Started: Jan 2015
-| * Goal: Teach myself Rust
-| * Status: Basic functionality complete, parser shelved pending free time
+| * Status: Frozen; updated as-needed
 |
 o Textspansion - Text expansion for Android devices
 | * Started: May 2011
 | * Goal: Add missing features to Android ecosystem while learning Android dev paradigms
-| * Status: Released June 2011, featured on Lifehacker.com in Sept 2011
+| * Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
 
 EDUCATION
 * Drexel University in Philadelphia, PA -- Graduated Jun 2013

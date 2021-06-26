@@ -9,10 +9,28 @@
 \begin{document}
 \section{Experience}\relax
     \renewcommand{\labelitemi}{$\cdot$}\relax % use cdot as a bullet.  it's less obvious
+    \begin{job}{Hulu, LLC}
+        {Seattle, WA}
+        {Principal Software Developer --- Living Room}
+        {job_0}
+    \end{job}
+
+    \begin{job}{Hulu, LLC}
+        {Seattle, WA}
+        {Senior Software Developer --- Living Room}
+        {job_1}
+    \end{job}
+
+    \begin{job}{Hulu, LLC}
+        {Seattle, WA}
+        {Software Developer --- Living Room}
+        {job_2}
+    \end{job}
+
     \begin{job}{Amazon.com}
         {Seattle, WA}
         {Software Development Engineer II --- Marketplace Shipping Services}
-        {job_0}
+        {job_3}
             \begin{itemize*}
                 \item Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
                 \item Provided external developer support during six months of public beta of shipping label web service
@@ -24,7 +42,7 @@
     \begin{job}{Amazon.com}
         {Seattle, WA}
         {Software Development Engineer I --- Marketplace Shipping Services}
-        {job_1}
+        {job_4}
             \begin{itemize*}
                 \item Wrote script to find fatal error root-causes in logs across three web services
                 \item Reduced fatal errors from 1,100 per million requests to 200
@@ -39,13 +57,13 @@
     \begin{job}{Lockheed Martin MS2}
         {Moorestown, NJ}
         {Senior Technical Co-Op --- Information Assurance (IA)}
-        {job_2}
+        {job_5}
     \end{job}
 
     \begin{job}{Lockheed Martin MS2}
         {Moorestown, NJ}
         {Senior Technical Co-Op --- Computer Infrastructure \& Integration Testing}
-        {job_3}
+        {job_6}
     \end{job}
 
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
@@ -53,52 +71,78 @@
         \node [align=right, text width=3cm, base left=2ex of job_0_bubble.base]
             at (job_0)
             (job_0_label)
-            {\small Apr 2015\\ --- Present};
+            {\small Mar 2020\\ --- Present};
         \node [bubble] at (job_1) (job_1_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of job_1_bubble.base]
             at (job_1)
             (job_1_label)
-            {\small Aug 2013\\ --- Apr 2015};
+            {\small Mar 2018\\ --- Mar 2020};
         \node [bubble] at (job_2) (job_2_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of job_2_bubble.base]
             at (job_2)
             (job_2_label)
-            {\small Apr 2012\\ --- Sep 2012};
+            {\small Mar 2016\\ --- Mar 2018};
         \node [bubble] at (job_3) (job_3_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of job_3_bubble.base]
             at (job_3)
             (job_3_label)
+            {\small Apr 2015\\ --- Mar 2016};
+        \node [bubble] at (job_4) (job_4_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_4_bubble.base]
+            at (job_4)
+            (job_4_label)
+            {\small Aug 2013\\ --- Apr 2015};
+        \node [bubble] at (job_5) (job_5_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_5_bubble.base]
+            at (job_5)
+            (job_5_label)
+            {\small Apr 2012\\ --- Sep 2012};
+        \node [bubble] at (job_6) (job_6_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_6_bubble.base]
+            at (job_6)
+            (job_6_label)
             {\small Mar 2011\\ --- Sep 2011};
         \draw
             (job_0_bubble) --
             (job_1_bubble) --
             (job_2_bubble) --
-            (job_3_bubble);
+            (job_3_bubble) --
+            (job_4_bubble) --
+            (job_5_bubble) --
+            (job_6_bubble);
     \end{tikzpicture}
 
 \section{Notable\\ Side Projects}\relax
     \begin{project}
-        {PNRG (Poorly Named Resume Generator)}
-        {Templated resume source generator}
+        {thcon}
+        {A configurable CLI tool that switches multiple apps between light and dark themes}
         {proj_0}
-            Goal: Reduce effort required to maintain multiple parallel resume formats\\
-            Status: In-use and published
+            Goal: See my screen better in the sun with fewer steps, teach myself Rust\\
+            Status: Published and actively developed
     \end{project}
 
     \begin{project}
-        {Rush}
-        {POSIX shell implementation in Rust}
+        {brs}
+        {BrightScript interpreter implemented in TypeScript}
         {proj_1}
-            Goal: Teach myself Rust\\
-            Status: Basic functionality complete, parser shelved pending free time
+            Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in\\
+            Status: Maintained with other Hulugans and in active use
+    \end{project}
+
+    \begin{project}
+        {PNRG (Poorly Named Resume Generator)}
+        {Templated resume source generator}
+        {proj_2}
+            Goal: Reduce effort required to maintain multiple parallel resume formats\\
+            Status: Frozen; updated as-needed
     \end{project}
 
     \begin{project}
         {Textspansion}
         {Text expansion for Android devices}
-        {proj_2}
+        {proj_3}
             Goal: Add missing features to Android ecosystem while learning Android dev paradigms\\
-            Status: Released June 2011, featured on Lifehacker.com in Sept 2011
+            Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
     \end{project}
 
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
@@ -106,21 +150,27 @@
         \node [align=right, text width=3cm, base left=2ex of proj_0_bubble.base]
             at (proj_0)
             (proj_0_label)
-            {\small Aug 2015};
+            {\small Oct 2020};
         \node [bubble] at (proj_1) (proj_1_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of proj_1_bubble.base]
             at (proj_1)
             (proj_1_label)
-            {\small Jan 2015};
+            {\small Dec 2017};
         \node [bubble] at (proj_2) (proj_2_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of proj_2_bubble.base]
             at (proj_2)
             (proj_2_label)
+            {\small Aug 2015};
+        \node [bubble] at (proj_3) (proj_3_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of proj_3_bubble.base]
+            at (proj_3)
+            (proj_3_label)
             {\small May 2011};
         \draw
             (proj_0_bubble) --
             (proj_1_bubble) --
-            (proj_2_bubble);
+            (proj_2_bubble) --
+            (proj_3_bubble);
     \end{tikzpicture}
     \newpage % because of the tikz-rendered bubbles, side projects **must** be on one page!
 \section{Education}\relax

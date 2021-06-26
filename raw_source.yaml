@@ -89,23 +89,29 @@ positions:
         team: Computer Infrastructure & Integration Testing
 
 side_projects:
+    - &brs
+        name: brs
+        description: BrightScript interpreter implemented in TypeScript
+        goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in
+        status: Maintained with other Hulugans and in active use
+        started: 2017-12-20
+    - &thcon
+        name: thcon
+        description: A configurable CLI tool that switches multiple apps between light and dark themes
+        goal: See my screen better in the sun with fewer steps, teach myself Rust
+        status: Published and actively developed
+        started: 2020-10-10
     - &pnrg
         name: PNRG (Poorly Named Resume Generator)
         description: Templated resume source generator
         goal: Reduce effort required to maintain multiple parallel resume formats
-        status: In-use and published
+        status: Frozen; updated as-needed
         started: 2015-08-25
-    - &rush
-        name: Rush
-        description: POSIX shell implementation in Rust
-        goal: Teach myself Rust
-        status: Basic functionality complete, parser shelved pending free time
-        started: 2015-01-09
     - &textspansion
         name: Textspansion
         description: Text expansion for Android devices
         goal: Add missing features to Android ecosystem while learning Android dev paradigms
-        status: Released June 2011, featured on Lifehacker.com in Sept 2011
+        status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
         started: 2011-05-04
 
 skills:
