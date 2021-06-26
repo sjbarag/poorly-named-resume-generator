@@ -1,0 +1,31 @@
+((* with contributions = root.oss_work | sort(attribute='date', reverse=True) *))
+\section{Open-Source\\ Contributions}\relax
+    ((* for c in contributions *))
+    \begin{project}
+        {((( c.name )))}
+        {((( c.description )))}
+        {cont_((( loop.index0 )))}
+            Status: ((( c.status )))\\
+            URL: \url{((( c.url )))}
+    \end{project}
+
+    ((* endfor *))
+    \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
+    ((* for c in contributions *))
+        \node [bubble] at (cont_((( loop.index0 )))) (cont_((( loop.index0 )))_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of cont_((( loop.index0 )))_bubble.base]
+            at (cont_((( loop.index0 ))))
+            (cont_((( loop.index0 )))_label)
+            {\small ((( c.date | strftime )))};
+    ((* endfor *))
+        \draw
+    ((* for c in contributions *))
+            (cont_((( loop.index0 )))_bubble)
+        ((*- if not loop.last *))
+ --
+        ((* else *))
+;
+        ((* endif *))
+    ((* endfor *))
+    \end{tikzpicture}
+((* endwith *))

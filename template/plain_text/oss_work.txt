@@ -1,0 +1,12 @@
+{% with oss_work = root.oss_work %}
+{% for contribution in oss_work | sort(attribute='date', reverse=True) %}
+o {{ contribution.name }}
+| * Date: {{ contribution.date | strftime }}
+| * Description: {{ contribution.description }}
+| * Status: {{ contribution.status }}
+| * URL: {{ contribution.url }}
+{% if not loop.last %}
+|
+{% endif %}
+{% endfor %}
+{% endwith %}

@@ -8,6 +8,9 @@ EXPERIENCE
 NOTABLE SIDE PROJECTS
 {% include 'formatted_text/side_projects.txt' %}
 
+OPEN-SOURCE CONTRIBUTIONS
+{% include 'formatted_text/oss_work.txt' %}
+
 EDUCATION
 {% include 'formatted_text/education.txt' %}
 
