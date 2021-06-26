@@ -6,9 +6,13 @@
         {((( p.location | escape_tex )))}
         {((( p.title | escape_tex ))) --- ((( p.team | escape_tex )))}
         {job_((( loop.index0 )))}
-        ((* for resp in p.responsibilities *))
-            \item ((( resp | escape_tex )))
-        ((* endfor *))
+        ((* if p.responsibilities *))
+            \begin{itemize*}
+            ((* for resp in p.responsibilities *))
+                \item ((( resp | escape_tex )))
+            ((* endfor *))
+            \end{itemize*}
+        ((* endif *))
     \end{job}
 
     ((* endfor *))

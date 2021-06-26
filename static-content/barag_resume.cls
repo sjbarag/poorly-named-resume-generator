@@ -81,9 +81,9 @@
 \newenvironment{job}[4]
 {\tikz \coordinate (#4);\relax
 {\large\textbf{#1}}{\small\hfill#2} \\
-       #3
-\begin{itemize*}}
-{\end{itemize*}}
+        #3
+}
+{}
 
 % ----- project entries -----
 \newenvironment{project}[3]
