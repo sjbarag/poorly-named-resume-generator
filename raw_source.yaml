@@ -26,10 +26,31 @@ education:
     graduation: 2013-06-13
 
 positions:
+    - &hulu_ic5
+        company: Hulu, LLC
+        location: Seattle, WA
+        start: 2020-03-01
+        title: Principal Software Developer
+        team: Living Room
+    - &hulu_ic4
+        company: Hulu, LLC
+        location: Seattle, WA
+        start: 2018-03-01
+        end: 2020-03-01
+        title: Senior Software Developer
+        team: Living Room
+    - &hulu_ic3
+        company: Hulu, LLC
+        location: Seattle, WA
+        start: 2016-03-07
+        end: 2018-03-01
+        title: Software Developer
+        team: Living Room
     - &amazon_mss_sde2
         company: Amazon.com
         location: Seattle, WA
         start: 2015-04-02
+        end: 2016-03-04
         title: Software Development Engineer II
         team: Marketplace Shipping Services
         responsibilities:
