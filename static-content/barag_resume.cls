@@ -104,5 +104,5 @@
 
 % ----- tikz styles for `git log --graph`-like lines -----
 \tikzstyle{every picture}+=[remember picture] % ensure overlay pictures can reference every other picture
-\tikzstyle{bubble} = [draw, circle, left = 0.5ex, anchor=south east]
+\tikzstyle{bubble} = [draw, circle, left=0.5ex, anchor=south east, inner sep=0, minimum size=1ex]
 \usetikzlibrary{positioning} % use more accurate baseline calculations
