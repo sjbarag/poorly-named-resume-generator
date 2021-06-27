@@ -10,7 +10,7 @@ EXPERIENCE
      - Present  |  Interim Software Development Manager with Living Room
                 |
       Mar 2020  o  Hulu, LLC in Seattle, WA
-    - Jun 2021  |  Principal Software Developer with Living Room
+     - Present  |  Principal Software Developer with Living Room
                 |    * Led team of 7 devs through complete UI rewrite, from
                 |      prototyping to launch
                 |    * Implemented Redux pattern in Roku ecosystem

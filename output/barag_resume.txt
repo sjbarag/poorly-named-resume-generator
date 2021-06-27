@@ -13,7 +13,7 @@ o Hulu, LLC in Seattle, WA
 |
 o Hulu, LLC in Seattle, WA
 | Principal Software Developer with Living Room
-| Mar 2020 - Jun 2021
+| Mar 2020 - Present
 |
 | * Led team of 7 devs through complete UI rewrite, from prototyping to launch
 | * Implemented Redux pattern in Roku ecosystem
