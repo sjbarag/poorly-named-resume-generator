@@ -76,7 +76,7 @@ EXPERIENCE
                 |    * Designed supporting circuits for PIC 18F microontroller
                 |      and sensors
                 |    * Implemented I2C sensor readings via vendor library
-                |    * Implementd data persistence on SD card via SPI via
+                |    * Implemented data persistence on SD card via SPI via
                 |      vendor library
                 |    * Built USB serial support for configuration via PC
                 |
