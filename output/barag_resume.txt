@@ -8,16 +8,38 @@ Sean Barag
 
 EXPERIENCE
 o Hulu, LLC in Seattle, WA
+| Interim Software Development Manager with Living Room
+| Jun 2020 - Present
+|
+o Hulu, LLC in Seattle, WA
 | Principal Software Developer with Living Room
-| Mar 2020 - Present
+| Mar 2020 - Jun 2021
+|
+| * Led team of 7 devs through complete UI rewrite, from prototyping to launch
+| * Implemented Redux pattern in Roku ecosystem
+| * Continued public maintenance of Hulu open-source projects (brs, roca, linter)
+| * Integrated OSS browser automation framework for automated UI testing
+| * Formal mentor to two other devs at Hulu
 |
 o Hulu, LLC in Seattle, WA
 | Senior Software Developer with Living Room
 | Mar 2018 - Mar 2020
 |
+| * Maintained Hulu app on Roku, written in Roku-proprietary language
+| * Led team of 5 devs to launch Hulu on Amazon Echo Show
+| * Released splitshot (see open-source contributions) in public, including Hulu Tech Blog post
+| * Integrated device-free unit testing for Roku app
+| * Became internal point of contact for all Hulu open-source releases
+|
 o Hulu, LLC in Seattle, WA
 | Software Developer with Living Room
 | Mar 2016 - Mar 2018
+|
+| * Maintained HTML/CSS/JS Hulu app on consoles, smart TVs, etc.
+| * Worked with team of 4 to launch profiles support in HTML app
+| * Embedded with backend team to build initial version of client-facing content API for live TV
+| * Investigated app performance for Hulu with Live TV launch
+| * Implemented view-model pattern in backend and in Hulu on Roku
 |
 o Amazon.com in Seattle, WA
 | Software Development Engineer II with Marketplace Shipping Services
@@ -69,7 +91,7 @@ o Textspansion - Text expansion for Android devices
 | * Goal: Add missing features to Android ecosystem while learning Android dev paradigms
 | * Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
 
-OPEN-SOURCE CONTRIBUTIONS
+NOTABLE OPEN-SOURCE CONTRIBUTIONS
 o git
 | * Date: Sep 2020
 | * Description: Added support for clone.defaultRemoteName config

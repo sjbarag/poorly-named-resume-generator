@@ -6,14 +6,43 @@
 --------------------------------------------------------------------------------
 
 EXPERIENCE
+      Jun 2020  o  Hulu, LLC in Seattle, WA
+     - Present  |  Interim Software Development Manager with Living Room
+                |
       Mar 2020  o  Hulu, LLC in Seattle, WA
-     - Present  |  Principal Software Developer with Living Room
+    - Jun 2021  |  Principal Software Developer with Living Room
+                |    * Led team of 7 devs through complete UI rewrite, from
+                |      prototyping to launch
+                |    * Implemented Redux pattern in Roku ecosystem
+                |    * Continued public maintenance of Hulu open-source
+                |      projects (brs, roca, linter)
+                |    * Integrated OSS browser automation framework for
+                |      automated UI testing
+                |    * Formal mentor to two other devs at Hulu
                 |
       Mar 2018  o  Hulu, LLC in Seattle, WA
     - Mar 2020  |  Senior Software Developer with Living Room
+                |    * Maintained Hulu app on Roku, written in Roku-proprietary
+                |      language
+                |    * Led team of 5 devs to launch Hulu on Amazon Echo Show
+                |    * Released splitshot (see open-source contributions) in
+                |      public, including Hulu Tech Blog post
+                |    * Integrated device-free unit testing for Roku app
+                |    * Became internal point of contact for all Hulu open-
+                |      source releases
                 |
       Mar 2016  o  Hulu, LLC in Seattle, WA
     - Mar 2018  |  Software Developer with Living Room
+                |    * Maintained HTML/CSS/JS Hulu app on consoles, smart TVs,
+                |      etc.
+                |    * Worked with team of 4 to launch profiles support in HTML
+                |      app
+                |    * Embedded with backend team to build initial version of
+                |      client-facing content API for live TV
+                |    * Investigated app performance for Hulu with Live TV
+                |      launch
+                |    * Implemented view-model pattern in backend and in Hulu on
+                |      Roku
                 |
       Apr 2015  o  Amazon.com in Seattle, WA
     - Mar 2016  |  Software Development Engineer II with Marketplace Shipping
@@ -77,7 +106,7 @@ NOTABLE SIDE PROJECTS
                 |               in Sept 2011, now deprecated
 
 
-OPEN-SOURCE CONTRIBUTIONS
+NOTABLE OPEN-SOURCE CONTRIBUTIONS
 
                 o  git - Added support for clone.defaultRemoteName config
                 |    * Status:  Submitted and released in 2.30
