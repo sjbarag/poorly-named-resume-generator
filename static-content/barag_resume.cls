@@ -11,7 +11,8 @@
 \RequirePackage{mdwlist}                 % itemize* and friends are more compact
 \RequirePackage{parskip}                 % Use whitespace to delimit paragraphs & prevent indentations
 \RequirePackage{multicol}                % Multiple columns for computer skills section
-\RequirePackage[pdfusetitle]{hyperref}                % Hyperlinks and metadata
+\RequirePackage[pdfusetitle]{hyperref}   % Hyperlinks and metadata
+\RequirePackage{bookmark}                % Better bookmarks
 \RequirePackage{calc}                    % Calculate box lengths
 \RequirePackage{tikz}                    % Draw a neat li'l timeline
 \RequirePackage{etoolbox}                % Checks for definition of things
@@ -55,10 +56,10 @@
 % ----- fancyhdr setup -----
 \fancyheadoffset[LO,LE]{\marginparsep+\marginparwidth}        % header goes across marginpar
 \pagestyle{fancy}
-\lhead{%
+\fancyhead[L]{%
     \Huge \textbf{\@author}
 }
-\rhead{%
+\fancyhead[R]{%
     \begin{tabular}{r c}
         \@ifundefined{@homeaddress} {}{\@homeaddress          & \faHome \\  } % house
         \@ifundefined{@phonenumber} {}{\@phonenumber          & \faPhone\\ } % telephone
@@ -66,15 +67,19 @@
         \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \faGithub} % github
     \end{tabular}\hspace{-1.5ex}
 }
-\cfoot{}
+\fancyfoot{}
 
 \addtolength{\headheight}{\baselineskip*2}  % add extra space after header rule
 \renewcommand{\headrulewidth}{.6pt}         % thicken the header rule
 \setlength{\footskip}{0pt}
 
 % ----- resume section titles -----
-\renewcommand*{\section}[1]{
-    \hspace{0pt}\marginpar{\textbf{#1}}\relax
+\newcommand{\marginsection}[1]{
+    \phantomsection
+    \addcontentsline{toc}{section}{#1}
+    \hspace{0pt}\marginpar{ %
+        \textbf{#1}
+    }\relax
 }
 
 % ----- job entries -----
