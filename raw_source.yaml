@@ -54,10 +54,10 @@ positions:
         title: Software Development Engineer II
         team: Marketplace Shipping Services
         responsibilities:
-            - Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
-            - Provided external developer support during six months of public beta of shipping label web service
+            - Designed, implemented, and launched new public web service to purchase shipping labels for orders
+            - Supported external users during six months of private beta of shipping label web service
             - Coordinated team of six developers working simultaneously in new codebase
-            - Supported and advised team of developers based in India for contributions to my team's codebase
+            - Supported and advised team of India-based developers for contributions to my team's codebase
     - &amazon_mss_sde1
         company: Amazon.com
         location: Seattle, WA
@@ -66,13 +66,10 @@ positions:
         title: Software Development Engineer I
         team: Marketplace Shipping Services
         responsibilities:
-            - Wrote script to find fatal error root-causes in logs across three web services
             - Reduced fatal errors from 1,100 per million requests to 200
             - Contributed to internal tools to read and transform log data
-            - Contributed new library to Amazon community to set outgoing request ID for web service calls
             - Developed and maintained Java service capable of processing ~1,000 requests per-second (peak)
-            - Designed an asynchronous workflow-based service to purchase up to 500 shipping labels and merge into single PDF
-            - Identified multiple production security vulnerabilities; critical vulnerability fixed in prod within 24 hours
+            - Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
     - &lockheed_ia
         company: Lockheed Martin MS2
         location: Moorestown, NJ
