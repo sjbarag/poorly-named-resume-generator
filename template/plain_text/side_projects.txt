@@ -4,6 +4,9 @@ o {{ project.name }} - {{ project.description }}
 | * Started: {{ project.started | strftime }}
 | * Goal: {{ project.goal }}
 | * Status: {{ project.status }}
+{% if project.url %}
+| * URL: {{ project.url }}
+{% endif %}
 {% if not loop.last %}
 |
 {% endif %}
