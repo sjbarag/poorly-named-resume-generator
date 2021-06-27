@@ -5,5 +5,5 @@
 ~/: {{ author.location }}
  #: {{ author.phone }}
  @: {{ author.email }}
-<>: http://{{ author.website }}
+<>: {{ author.website }}
 {% endwith %}

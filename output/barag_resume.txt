@@ -4,7 +4,7 @@ Sean Barag
 ~/: Seattle, WA
  #: +1215-380-8844
  @: sean@barag.org
-<>: http://github.com/sjbarag
+<>: https://github.com/sjbarag
 
 EXPERIENCE
 o Hulu, LLC in Seattle, WA
