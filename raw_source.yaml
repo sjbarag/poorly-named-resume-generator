@@ -26,12 +26,25 @@ education:
     graduation: 2013-06-13
 
 positions:
+    - &hulu_interim_lead
+        company: Hulu, LLC
+        location: Seattle, WA
+        start: 2020-06-01
+        title: Interim Software Development Manager
+        team: Living Room
     - &hulu_ic5
         company: Hulu, LLC
         location: Seattle, WA
         start: 2020-03-01
+        end: 2021-06-01
         title: Principal Software Developer
         team: Living Room
+        responsibilities:
+            - Led team of 7 devs through complete UI rewrite, from prototyping to launch
+            - Implemented Redux pattern in Roku ecosystem
+            - Continued public maintenance of Hulu open-source projects (brs, roca, linter)
+            - Integrated OSS browser automation framework for automated UI testing
+            - Formal mentor to two other devs at Hulu
     - &hulu_ic4
         company: Hulu, LLC
         location: Seattle, WA
@@ -39,6 +52,12 @@ positions:
         end: 2020-03-01
         title: Senior Software Developer
         team: Living Room
+        responsibilities:
+            - Maintained Hulu app on Roku, written in Roku-proprietary language
+            - Led team of 5 devs to launch Hulu on Amazon Echo Show
+            - Released splitshot (see open-source contributions) in public, including Hulu Tech Blog post
+            - Integrated device-free unit testing for Roku app
+            - Became internal point of contact for all Hulu open-source releases
     - &hulu_ic3
         company: Hulu, LLC
         location: Seattle, WA
@@ -46,6 +65,12 @@ positions:
         end: 2018-03-01
         title: Software Developer
         team: Living Room
+        responsibilities:
+            - Maintained HTML/CSS/JS Hulu app on consoles, smart TVs, etc.
+            - Worked with team of 4 to launch profiles support in HTML app
+            - Embedded with backend team to build initial version of client-facing content API for live TV
+            - Investigated app performance for Hulu with Live TV launch
+            - Implemented view-model pattern in backend and in Hulu on Roku
     - &amazon_mss_sde2
         company: Amazon.com
         location: Seattle, WA
