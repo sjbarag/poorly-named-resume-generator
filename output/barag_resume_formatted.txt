@@ -1,5 +1,5 @@
                                                              Seattle, WA  ~/
-   +----------+                                         +1(215)-380-8844   #
+   +----------+                                           +1215-380-8844   #
    |Sean Barag|                                           sean@barag.org   @
    +----------+                                http://github.com/sjbarag  <>
 
@@ -175,9 +175,9 @@ SKILLS
                      * SQL and NoSQL databases
 
                  Operating Systems:
+                     * macOS
                      * Linux (Arch, Debian, Fedora, RHEL, Ubuntu)
-                     * Unix (Solaris 9)
-                     * Mac OS (10.5, 10.6, 10.15)
+                     * Solaris 9 (briefly)
 
 
               Generated with PNRG (Poorly Named Resume Generator)               

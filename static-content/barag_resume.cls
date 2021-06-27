@@ -61,8 +61,8 @@
 }
 \fancyhead[R]{%
     \begin{tabular}{r c}
-        \@ifundefined{@homeaddress} {}{\@homeaddress          & \faHome \\  } % house
-        \@ifundefined{@phonenumber} {}{\@phonenumber          & \faPhone\\ } % telephone
+        \@ifundefined{@homeaddress} {}{\@homeaddress          & \faHome \\ } % house
+        \@ifundefined{@phonenumber} {}{\href{tel:\@phonenumber}{\@phonenumber} & \faPhone\\ } % telephone
         \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \faEnvelope[regular] \\ } % envelope
         \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \faGithub} % github
     \end{tabular}\hspace{-1.5ex}
