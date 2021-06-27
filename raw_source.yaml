@@ -94,6 +94,19 @@ positions:
             - Contributed to internal tools to read and transform log data
             - Developed and maintained Java service capable of processing ~1,000 requests per-second (peak)
             - Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
+    - &senior_design
+        company: Drexel University Capstone Project
+        location: Philadelphia, PA
+        start: 2012-09-01
+        end: 2013-06-01
+        title: Embedded Software Developer
+        team: Waterproof Recording Ammeter
+        responsibilities:
+            - Evaluated microcontrollers for power consumption and peripheral support
+            - Designed supporting circuits for PIC 18F microontroller and sensors
+            - Implemented I2C sensor readings via vendor library
+            - Implementd data persistence on SD card via SPI via vendor library
+            - Built USB serial support for configuration via PC
     - &lockheed_ia
         company: Lockheed Martin MS2
         location: Moorestown, NJ

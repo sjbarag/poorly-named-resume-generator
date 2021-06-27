@@ -68,6 +68,18 @@ EXPERIENCE
                 |    * Designed asynchronous workflow-based service to purchase
                 |      up to 500 shipping labels merged into single PDF
                 |
+      Sep 2012  o  Drexel University Capstone Project in Philadelphia, PA
+    - Jun 2013  |  Embedded Software Developer with Waterproof Recording
+                |  Ammeter
+                |    * Evaluated microcontrollers for power consumption and
+                |      peripheral support
+                |    * Designed supporting circuits for PIC 18F microontroller
+                |      and sensors
+                |    * Implemented I2C sensor readings with vendor support
+                |    * Implementd data persistence on SD card via SPI  with
+                |      vendor support
+                |    * Built USB serial support for configuration via PC
+                |
       Apr 2012  o  Lockheed Martin MS2 in Moorestown, NJ
     - Sep 2012  |  Senior Technical Co-Op with Information Assurance (IA)
                 |

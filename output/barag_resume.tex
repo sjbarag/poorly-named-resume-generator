@@ -78,16 +78,29 @@
             \end{itemize*}
     \end{job}
 
+    \begin{job}{Drexel University Capstone Project}
+        {Philadelphia, PA}
+        {Embedded Software Developer --- Waterproof Recording Ammeter}
+        {job_6}
+            \begin{itemize*}
+                \item Evaluated microcontrollers for power consumption and peripheral support
+                \item Designed supporting circuits for PIC 18F microontroller and sensors
+                \item Implemented I2C sensor readings with vendor support
+                \item Implementd data persistence on SD card via SPI  with vendor support
+                \item Built USB serial support for configuration via PC
+            \end{itemize*}
+    \end{job}
+
     \begin{job}{Lockheed Martin MS2}
         {Moorestown, NJ}
         {Senior Technical Co-Op --- Information Assurance (IA)}
-        {job_6}
+        {job_7}
     \end{job}
 
     \begin{job}{Lockheed Martin MS2}
         {Moorestown, NJ}
         {Senior Technical Co-Op --- Computer Infrastructure \& Integration Testing}
-        {job_7}
+        {job_8}
     \end{job}
 
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
@@ -125,11 +138,16 @@
         \node [align=right, text width=3cm, base left=2ex of job_6_bubble.base]
             at (job_6)
             (job_6_label)
-            {\small Apr 2012\\ --- Sep 2012};
+            {\small Sep 2012\\ --- Jun 2013};
         \node [bubble] at (job_7) (job_7_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of job_7_bubble.base]
             at (job_7)
             (job_7_label)
+            {\small Apr 2012\\ --- Sep 2012};
+        \node [bubble] at (job_8) (job_8_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of job_8_bubble.base]
+            at (job_8)
+            (job_8_label)
             {\small Mar 2011\\ --- Sep 2011};
         \draw
             (job_0_bubble) --
@@ -139,7 +157,8 @@
             (job_4_bubble) --
             (job_5_bubble) --
             (job_6_bubble) --
-            (job_7_bubble);
+            (job_7_bubble) --
+            (job_8_bubble);
     \end{tikzpicture}
 
     \newpage % because of the tikz-rendered bubbles, side projects **must** be on one page!

@@ -59,6 +59,16 @@ o Amazon.com in Seattle, WA
 | * Developed and maintained Java service capable of processing ~1,000 requests per-second (peak)
 | * Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
 |
+o Drexel University Capstone Project in Philadelphia, PA
+| Embedded Software Developer with Waterproof Recording Ammeter
+| Sep 2012 - Jun 2013
+|
+| * Evaluated microcontrollers for power consumption and peripheral support
+| * Designed supporting circuits for PIC 18F microontroller and sensors
+| * Implemented I2C sensor readings with vendor support
+| * Implementd data persistence on SD card via SPI  with vendor support
+| * Built USB serial support for configuration via PC
+|
 o Lockheed Martin MS2 in Moorestown, NJ
 | Senior Technical Co-Op with Information Assurance (IA)
 | Apr 2012 - Sep 2012
