@@ -4,7 +4,7 @@ o {{ contribution.name }}
 | * Date: {{ contribution.date | strftime }}
 | * Description: {{ contribution.description }}
 | * Status: {{ contribution.status }}
-| * URL: {{ contribution.url }}
+| * {{ contribution.url }}
 {% if not loop.last %}
 |
 {% endif %}

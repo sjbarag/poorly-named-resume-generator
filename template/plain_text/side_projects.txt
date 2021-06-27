@@ -5,7 +5,7 @@ o {{ project.name }} - {{ project.description }}
 | * Goal: {{ project.goal }}
 | * Status: {{ project.status }}
 {% if project.url %}
-| * URL: {{ project.url }}
+| * {{ project.url }}
 {% endif %}
 {% if not loop.last %}
 |

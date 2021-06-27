@@ -72,19 +72,19 @@ o thcon - A configurable CLI tool that switches multiple apps between light and 
 | * Started: Oct 2020
 | * Goal: See my screen better in the sun with fewer steps, teach myself Rust
 | * Status: Published and actively developed
-| * URL: https://github.com/theme-controller/thcon
+| * https://github.com/theme-controller/thcon
 |
 o brs - BrightScript interpreter implemented in TypeScript
 | * Started: Dec 2017
 | * Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in
 | * Status: Maintained with coworkers and in active use
-| * URL: https://github.com/sjbarag/brs
+| * https://github.com/sjbarag/brs
 |
 o PNRG (Poorly Named Resume Generator) - Templated resume source generator
 | * Started: Aug 2015
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
 | * Status: Frozen; updated as-needed
-| * URL: https://github.com/sjbarag/poorly-named-resume-generator
+| * https://github.com/sjbarag/poorly-named-resume-generator
 |
 o Textspansion - Text expansion for Android devices
 | * Started: May 2011
@@ -96,25 +96,25 @@ o git
 | * Date: Sep 2020
 | * Description: Added support for clone.defaultRemoteName config
 | * Status: Submitted and released in 2.30
-| * URL: https://github.com/git/git/compare/54e85e7af1...de9ed3ef37
+| * https://github.com/git/git/compare/54e85e7af1...de9ed3ef37
 |
 o roca
 | * Date: Jan 2019
 | * Description: Roku unit testing framework implemented on top of brs
 | * Status: Developed in public, released, actively maintained with peers
-| * URL: https://github.com/hulu/roca
+| * https://github.com/hulu/roca
 |
 o splitshot
 | * Date: Jan 2018
 | * Description: Generates TypeScript declarations from CoffeeScript sources
 | * Status: Developed internally, released, frozen
-| * URL: https://github.com/hulu/splitshot
+| * https://github.com/hulu/splitshot
 |
 o TypeScript
 | * Date: Sep 2017
 | * Description: Automatically inherit JSDoc comments subclasses and subinterfaces
 | * Status: Submitted and released in 2.7
-| * URL: https://github.com/microsoft/TypeScript/pull/18804
+| * https://github.com/microsoft/TypeScript/pull/18804
 
 EDUCATION
 * Drexel University in Philadelphia, PA -- Graduated Jun 2013
