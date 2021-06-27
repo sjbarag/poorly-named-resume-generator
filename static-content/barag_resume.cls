@@ -4,7 +4,7 @@
 \LoadClass{article}
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{barag_resume}[12/05/2015 - Sean Barag's resume/cv class]
+\ProvidesClass{barag_resume}[2021/06/27 - Sean Barag's resume/cv class]
 
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}                % It's a fancy... wait for it... header!
