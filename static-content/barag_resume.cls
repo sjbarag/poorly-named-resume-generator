@@ -11,7 +11,7 @@
 \RequirePackage{mdwlist}                 % itemize* and friends are more compact
 \RequirePackage{parskip}                 % Use whitespace to delimit paragraphs & prevent indentations
 \RequirePackage{multicol}                % Multiple columns for computer skills section
-\RequirePackage{hyperref}                % Hyperlinks and metadata
+\RequirePackage[pdfusetitle]{hyperref}                % Hyperlinks and metadata
 \RequirePackage{calc}                    % Calculate box lengths
 \RequirePackage{tikz}                    % Draw a neat li'l timeline
 \RequirePackage{etoolbox}                % Checks for definition of things
@@ -39,7 +39,7 @@
 \hypersetup{
     colorlinks=false,             % don't color any links
     pdfborder={0 0 0},            % and prevent ugly boxes around them
-    pdfdisplaydoctitle=true,      % show title instead of filename
+    pdfsubject={Resume/CV},       % correctly categorize PDF
 }
 
 % ----- email helper command -----
