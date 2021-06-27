@@ -1,8 +1,7 @@
 {% with oss_work = root.oss_work %}
 {% for contribution in oss_work | sort(attribute='date', reverse=True) %}
-o {{ contribution.name }}
+o {{ contribution.name }} - {{ contribution.description }}
 | * Date: {{ contribution.date | strftime }}
-| * Description: {{ contribution.description }}
 | * Status: {{ contribution.status }}
 | * {{ contribution.url }}
 {% if not loop.last %}

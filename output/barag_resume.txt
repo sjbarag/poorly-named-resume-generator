@@ -65,8 +65,8 @@ o Drexel University Capstone Project in Philadelphia, PA
 |
 | * Evaluated microcontrollers for power consumption and peripheral support
 | * Designed supporting circuits for PIC 18F microontroller and sensors
-| * Implemented I2C sensor readings with vendor support
-| * Implementd data persistence on SD card via SPI  with vendor support
+| * Implemented I2C sensor readings via vendor library
+| * Implementd data persistence on SD card via SPI via vendor library
 | * Built USB serial support for configuration via PC
 |
 o Lockheed Martin MS2 in Moorestown, NJ
@@ -102,27 +102,23 @@ o Textspansion - Text expansion for Android devices
 | * Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
 
 NOTABLE OPEN-SOURCE CONTRIBUTIONS
-o git
+o git - Added support for clone.defaultRemoteName config
 | * Date: Sep 2020
-| * Description: Added support for clone.defaultRemoteName config
 | * Status: Submitted and released in 2.30
 | * https://github.com/git/git/compare/54e85e7af1...de9ed3ef37
 |
-o roca
+o roca - Roku unit testing framework implemented on top of brs
 | * Date: Jan 2019
-| * Description: Roku unit testing framework implemented on top of brs
 | * Status: Developed in public, released, actively maintained with peers
 | * https://github.com/hulu/roca
 |
-o splitshot
+o splitshot - Generates TypeScript declarations from CoffeeScript sources
 | * Date: Jan 2018
-| * Description: Generates TypeScript declarations from CoffeeScript sources
 | * Status: Developed internally, released, frozen
 | * https://github.com/hulu/splitshot
 |
-o TypeScript
+o TypeScript - Automatically inherit JSDoc comments subclasses and subinterfaces
 | * Date: Sep 2017
-| * Description: Automatically inherit JSDoc comments subclasses and subinterfaces
 | * Status: Submitted and released in 2.7
 | * https://github.com/microsoft/TypeScript/pull/18804
 
