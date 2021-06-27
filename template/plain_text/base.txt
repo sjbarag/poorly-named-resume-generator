@@ -6,7 +6,7 @@ EXPERIENCE
 NOTABLE SIDE PROJECTS
 {% include 'plain_text/side_projects.txt' %}
 
-OPEN-SOURCE CONTRIBUTIONS
+NOTABLE OPEN-SOURCE CONTRIBUTIONS
 {% include 'plain_text/oss_work.txt' %}
 
 EDUCATION
