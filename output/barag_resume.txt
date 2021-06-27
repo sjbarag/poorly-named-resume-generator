@@ -23,22 +23,19 @@ o Amazon.com in Seattle, WA
 | Software Development Engineer II with Marketplace Shipping Services
 | Apr 2015 - Mar 2016
 |
-| * Led, designed, implemented, and launched new public web service to purchase shipping labels for Amazon orders
-| * Provided external developer support during six months of public beta of shipping label web service
+| * Designed, implemented, and launched new public web service to purchase shipping labels for orders
+| * Supported external users during six months of private beta of shipping label web service
 | * Coordinated team of six developers working simultaneously in new codebase
-| * Supported and advised team of developers based in India for contributions to my team's codebase
+| * Supported and advised team of India-based developers for contributions to my team's codebase
 |
 o Amazon.com in Seattle, WA
 | Software Development Engineer I with Marketplace Shipping Services
 | Aug 2013 - Apr 2015
 |
-| * Wrote script to find fatal error root-causes in logs across three web services
 | * Reduced fatal errors from 1,100 per million requests to 200
 | * Contributed to internal tools to read and transform log data
-| * Contributed new library to Amazon community to set outgoing request ID for web service calls
 | * Developed and maintained Java service capable of processing ~1,000 requests per-second (peak)
-| * Designed an asynchronous workflow-based service to purchase up to 500 shipping labels and merge into single PDF
-| * Identified multiple production security vulnerabilities; critical vulnerability fixed in prod within 24 hours
+| * Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
 |
 o Lockheed Martin MS2 in Moorestown, NJ
 | Senior Technical Co-Op with Information Assurance (IA)
@@ -53,21 +50,49 @@ o thcon - A configurable CLI tool that switches multiple apps between light and 
 | * Started: Oct 2020
 | * Goal: See my screen better in the sun with fewer steps, teach myself Rust
 | * Status: Published and actively developed
+| * URL: https://github.com/theme-controller/thcon
 |
 o brs - BrightScript interpreter implemented in TypeScript
 | * Started: Dec 2017
 | * Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in
-| * Status: Maintained with other Hulugans and in active use
+| * Status: Maintained with coworkers and in active use
+| * URL: https://github.com/sjbarag/brs
 |
 o PNRG (Poorly Named Resume Generator) - Templated resume source generator
 | * Started: Aug 2015
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
 | * Status: Frozen; updated as-needed
+| * URL: https://github.com/sjbarag/poorly-named-resume-generator
 |
 o Textspansion - Text expansion for Android devices
 | * Started: May 2011
 | * Goal: Add missing features to Android ecosystem while learning Android dev paradigms
 | * Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
+
+OPEN-SOURCE CONTRIBUTIONS
+o git
+| * Date: Sep 2020
+| * Description: Added support for clone.defaultRemoteName config
+| * Status: Submitted and released in 2.30
+| * URL: https://github.com/git/git/compare/54e85e7af1...de9ed3ef37
+|
+o roca
+| * Date: Jan 2019
+| * Description: Roku unit testing framework implemented on top of brs
+| * Status: Developed in public, released, actively maintained with peers
+| * URL: https://github.com/hulu/roca
+|
+o splitshot
+| * Date: Jan 2018
+| * Description: Generates TypeScript declarations from CoffeeScript sources
+| * Status: Developed internally, released, frozen
+| * URL: https://github.com/hulu/splitshot
+|
+o TypeScript
+| * Date: Sep 2017
+| * Description: Automatically inherit JSDoc comments subclasses and subinterfaces
+| * Status: Submitted and released in 2.7
+| * URL: https://github.com/microsoft/TypeScript/pull/18804
 
 EDUCATION
 * Drexel University in Philadelphia, PA -- Graduated Jun 2013
