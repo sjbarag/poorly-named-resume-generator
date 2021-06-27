@@ -29,7 +29,7 @@ positions:
     - &hulu_interim_lead
         company: Hulu, LLC
         location: Seattle, WA
-        start: 2020-06-01
+        start: 2021-06-01
         title: Interim Software Development Manager
         team: Living Room
     - &hulu_ic5
