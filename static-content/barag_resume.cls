@@ -60,12 +60,15 @@
     \Huge \textbf{\@author}
 }
 \fancyhead[R]{%
+    \begingroup
+    \setlength{\tabcolsep}{3pt}
     \begin{tabular}{r c}
         \@ifundefined{@homeaddress} {}{\@homeaddress          & \faMapMarker* \\ } % house
         \@ifundefined{@phonenumber} {}{\href{tel:\@phonenumber}{\@phonenumber} & \faPhone\\ } % telephone
         \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \faEnvelopeOpen[regular] \\ } % envelope
         \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \faGithub} % github
     \end{tabular}\hspace{-1.5ex}
+    \endgroup
 }
 \fancyfoot{}
 
