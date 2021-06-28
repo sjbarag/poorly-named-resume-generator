@@ -25,8 +25,8 @@ EXPERIENCE
                 |    * Maintained Hulu app on Roku, written in Roku-proprietary
                 |      language
                 |    * Led team of 5 devs to launch Hulu on Amazon Echo Show
-                |    * Released splitshot (see open-source contributions) in
-                |      public, including Hulu Tech Blog post
+                |    * Released splitshot (see open-source contributions) to
+                |      the public, including Hulu Tech Blog post
                 |    * Integrated device-free unit testing for Roku app
                 |    * Became internal point of contact for all Hulu open-
                 |      source releases
