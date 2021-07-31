@@ -26,12 +26,6 @@ education:
     graduation: 2013-06-13
 
 positions:
-    - &hulu_interim_lead
-        company: Hulu, LLC
-        location: Seattle, WA
-        start: 2021-06-01
-        title: Interim Software Development Manager
-        team: Living Room
     - &hulu_ic5
         company: Hulu, LLC
         location: Seattle, WA

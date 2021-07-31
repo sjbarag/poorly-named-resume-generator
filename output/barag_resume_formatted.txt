@@ -6,9 +6,6 @@
 --------------------------------------------------------------------------------
 
 EXPERIENCE
-      Jun 2021  o  Hulu, LLC in Seattle, WA
-     - Present  |  Interim Software Development Manager with Living Room
-                |
       Mar 2020  o  Hulu, LLC in Seattle, WA
      - Present  |  Principal Software Developer with Living Room
                 |    * Led team of 7 devs through complete UI rewrite, from
