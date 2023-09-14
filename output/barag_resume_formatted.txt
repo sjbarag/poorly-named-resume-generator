@@ -6,6 +6,19 @@
 --------------------------------------------------------------------------------
 
 EXPERIENCE
+      Oct 2021  o  Cockroach Labs in NYC (Remote)
+     - Present  |  Senior Software Developer with Cloud & Developer
+                |  Experiences
+                |    * Built automatic preview deployments for all UI PRs
+                |      (think self-hosted Vercel)
+                |    * Benchmarked JSON vs multiple protobuf clients in all
+                |      major browsers
+                |    * Supported UI build systems & infrastructure for
+                |      CockroachDB and SaaS site (Bazel and node-native)
+                |    * Reduced CockroachDB UI build times by > 3 minutes
+                |    * Set up real-user monitoring and structured error logging
+                |      in SaaS UI
+                |
       Mar 2020  o  Hulu, LLC in Seattle, WA
     - Oct 2021  |  Principal Software Developer with Living Room
                 |    * Led team of 7 devs through complete UI rewrite, from

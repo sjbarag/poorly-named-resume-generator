@@ -26,6 +26,18 @@ education:
     graduation: 2013-06-13
 
 positions:
+    - &crl_t6
+        company: Cockroach Labs
+        location: NYC (Remote)
+        start: 2021-10-18
+        title: Senior Software Developer
+        team: Cloud & Developer Experiences
+        responsibilities:
+            - Built automatic preview deployments for all UI PRs (think self-hosted Vercel)
+            - Benchmarked JSON vs multiple protobuf clients in all major browsers
+            - Supported UI build systems & infrastructure for CockroachDB and SaaS site (Bazel and node-native)
+            - Reduced CockroachDB UI build times by > 3 minutes
+            - Set up real-user monitoring and structured error logging in SaaS UI
     - &hulu_ic5
         company: Hulu, LLC
         location: Seattle, WA
