@@ -17,7 +17,7 @@ o Cockroach Labs in NYC (Remote)
 | * Reduced CockroachDB UI build times by > 3 minutes
 | * Set up real-user monitoring and structured error logging in SaaS UI
 |
-o Hulu, LLC in Seattle, WA
+o Hulu in Seattle, WA
 | Principal Software Developer with Living Room
 | Mar 2020 - Oct 2021
 |
@@ -27,7 +27,7 @@ o Hulu, LLC in Seattle, WA
 | * Integrated OSS browser automation framework for webapp UI testing
 | * Formal mentor to two other devs
 |
-o Hulu, LLC in Seattle, WA
+o Hulu in Seattle, WA
 | Senior Software Developer with Living Room
 | Mar 2018 - Mar 2020
 |
@@ -37,7 +37,7 @@ o Hulu, LLC in Seattle, WA
 | * Integrated device-free unit testing for Roku app
 | * Became internal point of contact for all Hulu open-source releases
 |
-o Hulu, LLC in Seattle, WA
+o Hulu in Seattle, WA
 | Software Developer with Living Room
 | Mar 2016 - Mar 2018
 |
