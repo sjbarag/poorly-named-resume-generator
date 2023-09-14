@@ -18,8 +18,8 @@
                 \item Led team of 7 devs through complete UI rewrite, from prototyping to launch
                 \item Implemented Redux pattern in Roku ecosystem
                 \item Continued public maintenance of Hulu open-source projects (brs, roca, linter)
-                \item Integrated OSS browser automation framework for automated UI testing
-                \item Formal mentor to two other devs at Hulu
+                \item Integrated OSS browser automation framework for webapp UI testing
+                \item Formal mentor to two other devs
             \end{itemize*}
     \end{job}
 
@@ -54,7 +54,7 @@
         {Software Development Engineer II --- Marketplace Shipping Services}
         {job_3}
             \begin{itemize*}
-                \item Designed, implemented, and launched new public web service to purchase shipping labels for orders
+                \item Designed, implemented, and launched public API to purchase shipping labels for orders
                 \item Supported external users during six months of private beta of shipping label web service
                 \item Coordinated team of six developers working simultaneously in new codebase
                 \item Supported and advised team of India-based developers for contributions to my team's codebase
@@ -69,7 +69,7 @@
                 \item Reduced fatal errors from 1,100 per million requests to 200
                 \item Contributed to internal tools to read and transform log data
                 \item Developed and maintained Java service capable of processing \~{}1,000 requests per-second (peak)
-                \item Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
+                \item Designed async workflow-based service to buy up to 500 shipping labels \& merge into one PDF
             \end{itemize*}
     \end{job}
 
@@ -78,7 +78,6 @@
         {Embedded Software Developer --- Waterproof Recording Ammeter}
         {job_5}
             \begin{itemize*}
-                \item Evaluated microcontrollers for power consumption and peripheral support
                 \item Designed supporting circuits for PIC 18F microontroller and sensors
                 \item Implemented I2C sensor readings via vendor library
                 \item Implemented data persistence on SD card via SPI via vendor library
@@ -86,24 +85,12 @@
             \end{itemize*}
     \end{job}
 
-    \begin{job}{Lockheed Martin MS2}
-        {Moorestown, NJ}
-        {Senior Technical Co-Op --- Information Assurance (IA)}
-        {job_6}
-    \end{job}
-
-    \begin{job}{Lockheed Martin MS2}
-        {Moorestown, NJ}
-        {Senior Technical Co-Op --- Computer Infrastructure \& Integration Testing}
-        {job_7}
-    \end{job}
-
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
         \node [bubble] at (job_0) (job_0_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of job_0_bubble.base]
             at (job_0)
             (job_0_label)
-            {\small Mar 2020\\ --- Present};
+            {\small Mar 2020\\ --- Oct 2021};
         \node [bubble] at (job_1) (job_1_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of job_1_bubble.base]
             at (job_1)
@@ -129,36 +116,24 @@
             at (job_5)
             (job_5_label)
             {\small Sep 2012\\ --- Jun 2013};
-        \node [bubble] at (job_6) (job_6_bubble) {};
-        \node [align=right, text width=3cm, base left=2ex of job_6_bubble.base]
-            at (job_6)
-            (job_6_label)
-            {\small Apr 2012\\ --- Sep 2012};
-        \node [bubble] at (job_7) (job_7_bubble) {};
-        \node [align=right, text width=3cm, base left=2ex of job_7_bubble.base]
-            at (job_7)
-            (job_7_label)
-            {\small Mar 2011\\ --- Sep 2011};
         \draw
             (job_0_bubble) --
             (job_1_bubble) --
             (job_2_bubble) --
             (job_3_bubble) --
             (job_4_bubble) --
-            (job_5_bubble) --
-            (job_6_bubble) --
-            (job_7_bubble);
+            (job_5_bubble);
     \end{tikzpicture}
 
     \newpage % because of the tikz-rendered bubbles, side projects **must** be on one page!
 \marginsection{Notable\\ Side Projects}\relax
     \begin{project}
         {thcon}
-        {A configurable CLI tool that switches multiple apps between light and dark themes}
+        {A command-line tool + config file that switches themes in many apps}
         {proj_0}
-            Goal: See my screen better in the sun with fewer steps, teach myself Rust\\
-            Status: Published and actively developed \\ 
-            \url{https://github.com/theme-controller/thcon}
+            Goal: Ease eye-strain by toggling dark mode in multiple tools with fewer steps\\
+            Status: Published and actively maintained \\ 
+            \url{https://thcon.app}
     \end{project}
 
     \begin{project}
@@ -166,7 +141,7 @@
         {BrightScript interpreter implemented in TypeScript}
         {proj_1}
             Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in\\
-            Status: Maintained with coworkers and in active use \\ 
+            Status: In use but frozen; forked by Roku dev community \\ 
             \url{https://github.com/sjbarag/brs}
     \end{project}
 
@@ -178,13 +153,6 @@
             Status: Frozen; updated as-needed \\ 
             \url{https://github.com/sjbarag/poorly-named-resume-generator}
     \end{project}
-
-    \begin{project}
-        {Textspansion}
-        {Text expansion for Android devices}
-        {proj_3}
-            Goal: Add missing features to Android ecosystem while learning Android dev paradigms\\
-            Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated    \end{project}
 
     \begin{tikzpicture}[overlay, transform canvas={xshift=-0.5ex}]
         \node [bubble] at (proj_0) (proj_0_bubble) {};
@@ -202,16 +170,10 @@
             at (proj_2)
             (proj_2_label)
             {\small Aug 2015};
-        \node [bubble] at (proj_3) (proj_3_bubble) {};
-        \node [align=right, text width=3cm, base left=2ex of proj_3_bubble.base]
-            at (proj_3)
-            (proj_3_label)
-            {\small May 2011};
         \draw
             (proj_0_bubble) --
             (proj_1_bubble) --
-            (proj_2_bubble) --
-            (proj_3_bubble);
+            (proj_2_bubble);
     \end{tikzpicture}
 
 \marginsection{Notable\\ Open-Source\\ Contributions}\relax

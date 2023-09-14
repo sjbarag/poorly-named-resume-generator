@@ -9,13 +9,13 @@ Sean Barag
 EXPERIENCE
 o Hulu, LLC in Seattle, WA
 | Principal Software Developer with Living Room
-| Mar 2020 - Present
+| Mar 2020 - Oct 2021
 |
 | * Led team of 7 devs through complete UI rewrite, from prototyping to launch
 | * Implemented Redux pattern in Roku ecosystem
 | * Continued public maintenance of Hulu open-source projects (brs, roca, linter)
-| * Integrated OSS browser automation framework for automated UI testing
-| * Formal mentor to two other devs at Hulu
+| * Integrated OSS browser automation framework for webapp UI testing
+| * Formal mentor to two other devs
 |
 o Hulu, LLC in Seattle, WA
 | Senior Software Developer with Living Room
@@ -41,7 +41,7 @@ o Amazon.com in Seattle, WA
 | Software Development Engineer II with Marketplace Shipping Services
 | Apr 2015 - Mar 2016
 |
-| * Designed, implemented, and launched new public web service to purchase shipping labels for orders
+| * Designed, implemented, and launched public API to purchase shipping labels for orders
 | * Supported external users during six months of private beta of shipping label web service
 | * Coordinated team of six developers working simultaneously in new codebase
 | * Supported and advised team of India-based developers for contributions to my team's codebase
@@ -53,37 +53,28 @@ o Amazon.com in Seattle, WA
 | * Reduced fatal errors from 1,100 per million requests to 200
 | * Contributed to internal tools to read and transform log data
 | * Developed and maintained Java service capable of processing ~1,000 requests per-second (peak)
-| * Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
+| * Designed async workflow-based service to buy up to 500 shipping labels & merge into one PDF
 |
 o Drexel University Capstone Project in Philadelphia, PA
 | Embedded Software Developer with Waterproof Recording Ammeter
 | Sep 2012 - Jun 2013
 |
-| * Evaluated microcontrollers for power consumption and peripheral support
 | * Designed supporting circuits for PIC 18F microontroller and sensors
 | * Implemented I2C sensor readings via vendor library
 | * Implemented data persistence on SD card via SPI via vendor library
 | * Built USB serial support for configuration via PC
-|
-o Lockheed Martin MS2 in Moorestown, NJ
-| Senior Technical Co-Op with Information Assurance (IA)
-| Apr 2012 - Sep 2012
-|
-o Lockheed Martin MS2 in Moorestown, NJ
-| Senior Technical Co-Op with Computer Infrastructure & Integration Testing
-| Mar 2011 - Sep 2011
 
 NOTABLE SIDE PROJECTS
-o thcon - A configurable CLI tool that switches multiple apps between light and dark themes
+o thcon - A command-line tool + config file that switches themes in many apps
 | * Started: Oct 2020
-| * Goal: See my screen better in the sun with fewer steps, teach myself Rust
-| * Status: Published and actively developed
-| * https://github.com/theme-controller/thcon
+| * Goal: Ease eye-strain by toggling dark mode in multiple tools with fewer steps
+| * Status: Published and actively maintained
+| * https://thcon.app
 |
 o brs - BrightScript interpreter implemented in TypeScript
 | * Started: Dec 2017
 | * Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in
-| * Status: Maintained with coworkers and in active use
+| * Status: In use but frozen; forked by Roku dev community
 | * https://github.com/sjbarag/brs
 |
 o PNRG (Poorly Named Resume Generator) - Templated resume source generator
@@ -91,11 +82,6 @@ o PNRG (Poorly Named Resume Generator) - Templated resume source generator
 | * Goal: Reduce effort required to maintain multiple parallel resume formats
 | * Status: Frozen; updated as-needed
 | * https://github.com/sjbarag/poorly-named-resume-generator
-|
-o Textspansion - Text expansion for Android devices
-| * Started: May 2011
-| * Goal: Add missing features to Android ecosystem while learning Android dev paradigms
-| * Status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
 
 NOTABLE OPEN-SOURCE CONTRIBUTIONS
 o git - Added support for clone.defaultRemoteName config

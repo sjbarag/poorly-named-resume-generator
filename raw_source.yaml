@@ -30,14 +30,15 @@ positions:
         company: Hulu, LLC
         location: Seattle, WA
         start: 2020-03-01
+        end: 2021-10-08
         title: Principal Software Developer
         team: Living Room
         responsibilities:
             - Led team of 7 devs through complete UI rewrite, from prototyping to launch
             - Implemented Redux pattern in Roku ecosystem
             - Continued public maintenance of Hulu open-source projects (brs, roca, linter)
-            - Integrated OSS browser automation framework for automated UI testing
-            - Formal mentor to two other devs at Hulu
+            - Integrated OSS browser automation framework for webapp UI testing
+            - Formal mentor to two other devs
     - &hulu_ic4
         company: Hulu, LLC
         location: Seattle, WA
@@ -72,7 +73,7 @@ positions:
         title: Software Development Engineer II
         team: Marketplace Shipping Services
         responsibilities:
-            - Designed, implemented, and launched new public web service to purchase shipping labels for orders
+            - Designed, implemented, and launched public API to purchase shipping labels for orders
             - Supported external users during six months of private beta of shipping label web service
             - Coordinated team of six developers working simultaneously in new codebase
             - Supported and advised team of India-based developers for contributions to my team's codebase
@@ -87,7 +88,7 @@ positions:
             - Reduced fatal errors from 1,100 per million requests to 200
             - Contributed to internal tools to read and transform log data
             - Developed and maintained Java service capable of processing ~1,000 requests per-second (peak)
-            - Designed asynchronous workflow-based service to purchase up to 500 shipping labels merged into single PDF
+            - Designed async workflow-based service to buy up to 500 shipping labels & merge into one PDF
     - &senior_design
         company: Drexel University Capstone Project
         location: Philadelphia, PA
@@ -96,41 +97,26 @@ positions:
         title: Embedded Software Developer
         team: Waterproof Recording Ammeter
         responsibilities:
-            - Evaluated microcontrollers for power consumption and peripheral support
             - Designed supporting circuits for PIC 18F microontroller and sensors
             - Implemented I2C sensor readings via vendor library
             - Implemented data persistence on SD card via SPI via vendor library
             - Built USB serial support for configuration via PC
-    - &lockheed_ia
-        company: Lockheed Martin MS2
-        location: Moorestown, NJ
-        start: 2012-04-01
-        end: 2012-09-01
-        title: Senior Technical Co-Op
-        team: Information Assurance (IA)
-    - &lockheed_ciit
-        company: Lockheed Martin MS2
-        location: Moorestown, NJ
-        start: 2011-03-01
-        end: 2011-09-01
-        title: Senior Technical Co-Op
-        team: Computer Infrastructure & Integration Testing
 
 side_projects:
+    - &thcon
+        name: thcon
+        url: https://thcon.app
+        description: A command-line tool + config file that switches themes in many apps
+        goal: Ease eye-strain by toggling dark mode in multiple tools with fewer steps
+        status: Published and actively maintained
+        started: 2020-10-10
     - &brs
         name: brs
         url: https://github.com/sjbarag/brs
         description: BrightScript interpreter implemented in TypeScript
         goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in
-        status: Maintained with coworkers and in active use
+        status: In use but frozen; forked by Roku dev community
         started: 2017-12-20
-    - &thcon
-        name: thcon
-        url: https://github.com/theme-controller/thcon
-        description: A configurable CLI tool that switches multiple apps between light and dark themes
-        goal: See my screen better in the sun with fewer steps, teach myself Rust
-        status: Published and actively developed
-        started: 2020-10-10
     - &pnrg
         name: PNRG (Poorly Named Resume Generator)
         url: https://github.com/sjbarag/poorly-named-resume-generator
@@ -138,12 +124,6 @@ side_projects:
         goal: Reduce effort required to maintain multiple parallel resume formats
         status: Frozen; updated as-needed
         started: 2015-08-25
-    - &textspansion
-        name: Textspansion
-        description: Text expansion for Android devices
-        goal: Add missing features to Android ecosystem while learning Android dev paradigms
-        status: Released June 2011, featured on Lifehacker.com in Sept 2011, now deprecated
-        started: 2011-05-04
 
 oss_work:
     - &git
