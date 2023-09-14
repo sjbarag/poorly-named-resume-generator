@@ -7,6 +7,7 @@ rm -rf $DST && mkdir $DST
 python3 generate_resume.py --output-name $OUTPUT_BASE --destination $DST raw_source.yaml && \
 
 cp static-content/barag_resume.cls $DST/
-pushd $DST
-lualatex ${OUTPUT_BASE}.tex && lualatex ${OUTPUT_BASE}.tex
-popd
+(
+  cd $DST
+  lualatex ${OUTPUT_BASE}.tex && lualatex ${OUTPUT_BASE}.tex
+)
