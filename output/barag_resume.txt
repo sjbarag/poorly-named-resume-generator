@@ -75,6 +75,12 @@ o Drexel University Capstone Project in Philadelphia, PA
 | * Built USB serial support for configuration via PC
 
 NOTABLE SIDE PROJECTS
+o caiac - Code as Infrastructure as Code
+| * Started: Feb 2023
+| * Goal: Have a laugh by writing a Terraform provider that models the Go AST and emits .go files
+| * Status: Published MVP and frozen
+| * https://github.com/sjbarag/caiac
+|
 o thcon - A command-line tool + config file that switches themes in many apps
 | * Started: Oct 2020
 | * Goal: Ease eye-strain by toggling dark mode in multiple tools with fewer steps

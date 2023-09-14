@@ -147,9 +147,18 @@
     \newpage % because of the tikz-rendered bubbles, side projects **must** be on one page!
 \marginsection{Notable\\ Side Projects}\relax
     \begin{project}
+        {caiac}
+        {Code as Infrastructure as Code}
+        {proj_0}
+            Goal: Have a laugh by writing a Terraform provider that models the Go AST and emits .go files\\
+            Status: Published MVP and frozen \\ 
+            \url{https://github.com/sjbarag/caiac}
+    \end{project}
+
+    \begin{project}
         {thcon}
         {A command-line tool + config file that switches themes in many apps}
-        {proj_0}
+        {proj_1}
             Goal: Ease eye-strain by toggling dark mode in multiple tools with fewer steps\\
             Status: Published and actively maintained \\ 
             \url{https://thcon.app}
@@ -158,7 +167,7 @@
     \begin{project}
         {brs}
         {BrightScript interpreter implemented in TypeScript}
-        {proj_1}
+        {proj_2}
             Goal: Enable off-device testing by implementing (from-scratch) the language Roku apps are written in\\
             Status: In use but frozen; forked by Roku dev community \\ 
             \url{https://github.com/sjbarag/brs}
@@ -167,7 +176,7 @@
     \begin{project}
         {PNRG (Poorly Named Resume Generator)}
         {Templated resume source generator}
-        {proj_2}
+        {proj_3}
             Goal: Reduce effort required to maintain multiple parallel resume formats\\
             Status: Frozen; updated as-needed \\ 
             \url{https://github.com/sjbarag/poorly-named-resume-generator}
@@ -178,21 +187,27 @@
         \node [align=right, text width=3cm, base left=2ex of proj_0_bubble.base]
             at (proj_0)
             (proj_0_label)
-            {\small Oct 2020};
+            {\small Feb 2023};
         \node [bubble] at (proj_1) (proj_1_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of proj_1_bubble.base]
             at (proj_1)
             (proj_1_label)
-            {\small Dec 2017};
+            {\small Oct 2020};
         \node [bubble] at (proj_2) (proj_2_bubble) {};
         \node [align=right, text width=3cm, base left=2ex of proj_2_bubble.base]
             at (proj_2)
             (proj_2_label)
+            {\small Dec 2017};
+        \node [bubble] at (proj_3) (proj_3_bubble) {};
+        \node [align=right, text width=3cm, base left=2ex of proj_3_bubble.base]
+            at (proj_3)
+            (proj_3_label)
             {\small Aug 2015};
         \draw
             (proj_0_bubble) --
             (proj_1_bubble) --
-            (proj_2_bubble);
+            (proj_2_bubble) --
+            (proj_3_bubble);
     \end{tikzpicture}
 
 \marginsection{Notable\\ Open-Source\\ Contributions}\relax

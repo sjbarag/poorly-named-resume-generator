@@ -91,6 +91,12 @@ EXPERIENCE
 
 NOTABLE SIDE PROJECTS
 
+      Feb 2023  o  caiac - Code as Infrastructure as Code
+                |    * Goal:   Have a laugh by writing a Terraform provider
+                |              that models the Go AST and emits .go files
+                |    * Status: Published MVP and frozen
+                |    * https://github.com/sjbarag/caiac
+                |
       Oct 2020  o  thcon - A command-line tool + config file that switches
                 |  themes in many apps
                 |    * Goal:   Ease eye-strain by toggling dark mode in

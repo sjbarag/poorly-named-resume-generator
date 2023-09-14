@@ -122,6 +122,13 @@ side_projects:
         goal: Ease eye-strain by toggling dark mode in multiple tools with fewer steps
         status: Published and actively maintained
         started: 2020-10-10
+    - &caiac
+        name: caiac
+        url: https://github.com/sjbarag/caiac
+        description: Code as Infrastructure as Code
+        goal: Have a laugh by writing a Terraform provider that models the Go AST and emits .go files
+        status: Published MVP and frozen
+        started: 2023-02-04
     - &brs
         name: brs
         url: https://github.com/sjbarag/brs
