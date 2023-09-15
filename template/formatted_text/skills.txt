@@ -11,13 +11,14 @@
                      * {{ tool }}
     {% endfor %}
 
+                 Particularly Excited About:
+    {% for exc in skills.excitements %}
+                     * {{ exc }}
+    {% endfor %}
+
                  Paradigms:
     {% for paradigm in skills.paradigms %}
                      * {{ paradigm }}
     {% endfor %}
 
-                 Operating Systems:
-    {% for os in skills.operating_systems %}
-                     * {{ os }}
-    {% endfor %}
 {% endwith %}

@@ -1,7 +1,7 @@
 ---
 author:
     name: Sean Barag
-    location: Seattle, WA
+    location: Seattle-ish, WA
     phone: +1215-380-8844
     email: sean@barag.org
     website: https://github.com/sjbarag
@@ -173,27 +173,32 @@ oss_work:
 skills:
     languages:
         - Bash/POSIX shells
-        - C
         - Docker (as needed)
-        - Java
+        - Go
         - JavaScript / TypeScript
         - LaTeX
         - Python
         - Rust (still learning)
     tools:
         - AWS S3, DyamoDB, SQS, SNS, Lambda
+        - Bazel
         - DBus
         - git
-        - vim
+        - HTTP debugging proxies (Charles, Proxyman)
+        - Kubernetes (as needed)
+        - Terraform
+    excitements:
+        - Building simple, powerful tooling
+        - Debugging (weird bugs are fun!)
+        - Helping developers grow
+        - Performance optimization
     operating_systems:
         - macOS
-        - Linux (Arch, Debian, Fedora, RHEL, Ubuntu)
-        - Solaris 9 (briefly)
+        - Linux (Alpine, Arch, Debian, Fedora)
+        - FreeBSD (dabbling)
     paradigms:
         - Distributed systems
         - HTML Single-Page Apps (SPA)
         - HTTP REST (client and server)
         - Language Interpreters
-        - Service-Oriented Architectures (SOA)
-        - SQL and NoSQL databases
 ...
