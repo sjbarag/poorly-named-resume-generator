@@ -33,11 +33,12 @@ positions:
         title: Senior Software Developer
         team: Cloud & Developer Experiences
         responsibilities:
-            - Built automatic preview deployments for all UI PRs (think self-hosted Vercel)
-            - Benchmarked JSON vs multiple protobuf clients in all major browsers
-            - Supported UI build systems & infrastructure for CockroachDB and SaaS site (Bazel and node-native)
+            - Responsible for UI development tools, CI/CD infra, build systems (Bazel and node-native)
+            - Built automatic preview deployments for all UI PRs (~self-hosted Vercel)
+            - Benchmarked JSON vs multiple protobuf clients with real-world payloads in all major browsers
             - Reduced CockroachDB UI build times by > 3 minutes
             - Set up real-user monitoring and structured error logging in SaaS UI
+            - Maintained React + Redux SaaS web UI
     - &hulu_ic5
         company: Hulu
         location: Seattle, WA

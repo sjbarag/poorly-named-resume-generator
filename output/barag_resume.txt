@@ -11,11 +11,12 @@ o Cockroach Labs in NYC (Remote)
 | Senior Software Developer with Cloud & Developer Experiences
 | Oct 2021 - Present
 |
-| * Built automatic preview deployments for all UI PRs (think self-hosted Vercel)
-| * Benchmarked JSON vs multiple protobuf clients in all major browsers
-| * Supported UI build systems & infrastructure for CockroachDB and SaaS site (Bazel and node-native)
+| * Responsible for UI development tools, CI/CD infra, build systems (Bazel and node-native)
+| * Built automatic preview deployments for all UI PRs (~self-hosted Vercel)
+| * Benchmarked JSON vs multiple protobuf clients with real-world payloads in all major browsers
 | * Reduced CockroachDB UI build times by > 3 minutes
 | * Set up real-user monitoring and structured error logging in SaaS UI
+| * Maintained React + Redux SaaS web UI
 |
 o Hulu in Seattle, WA
 | Principal Software Developer with Living Room
