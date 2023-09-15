@@ -8,3 +8,4 @@ output/*.log
 output/*.out
 output/*.aux
 build/
+.DS_Store
