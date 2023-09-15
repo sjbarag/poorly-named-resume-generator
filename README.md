@@ -7,9 +7,9 @@ Regardless of method, generated files are emitted in the `output/` directory.
 ### Docker
 * On macOS, either start the Docker daemon or run `podman machine start`
     * If you haven't yet created a podman virtual machine, run `podman machine init` first!
-* Run `./build-docker.sh`
+* Run `make docker`
 
 ### Native
 * Install Python 3 and a recent texlive distribution
     * Platform-specific instructions are left as an exercise to the reader
-* Run `./build.sh`
+* Run `make`
