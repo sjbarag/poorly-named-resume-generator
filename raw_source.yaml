@@ -182,14 +182,15 @@ skills:
     tools:
         - AWS S3, DyamoDB, SQS, SNS, Lambda
         - Bazel
-        - DBus
         - git
         - HTTP debugging proxies (Charles, Proxyman)
         - Kubernetes (as needed)
+        - React/Redux
         - Terraform
     excitements:
         - Building simple, powerful tooling
         - Debugging (weird bugs are fun!)
+        - Fast, reliable, understandable tests
         - Helping developers grow
         - Performance optimization
     operating_systems:
@@ -197,8 +198,9 @@ skills:
         - Linux (Alpine, Arch, Debian, Fedora)
         - FreeBSD (dabbling)
     paradigms:
+        - Custom linters
         - Distributed systems
         - HTML Single-Page Apps (SPA)
         - HTTP REST (client and server)
-        - Language Interpreters
+        - Language interpreters
 ...
