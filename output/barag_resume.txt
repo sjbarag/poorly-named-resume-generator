@@ -120,13 +120,6 @@ o TypeScript - Automatically inherit JSDoc comments subclasses and subinterfaces
 | * Status: Submitted and released in 2.7
 | * https://github.com/microsoft/TypeScript/pull/18804
 
-EDUCATION
-* Drexel University in Philadelphia, PA -- Graduated Jun 2013
-* BS in Computer Engineering
-* BS in Electrical Engineering (Electronics)
-* Minor in Computer Science
-* Cumulative GPA: 3.58 | In-major: 3.63
-
 SKILLS
 Languages:
 * Bash/POSIX shells
