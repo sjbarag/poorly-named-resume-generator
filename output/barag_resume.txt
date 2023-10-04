@@ -79,7 +79,7 @@ NOTABLE SIDE PROJECTS
 o caiac - Code as Infrastructure as Code
 | * Started: Feb 2023
 | * Goal: Have a laugh by writing a Terraform provider that models the Go AST and emits .go files
-| * Status: Published MVP and frozen
+| * Status: Published POC and frozen
 | * https://github.com/sjbarag/caiac
 |
 o thcon - A command-line tool + config file that switches themes in many apps
@@ -116,7 +116,7 @@ o splitshot - Generates TypeScript declarations from CoffeeScript sources
 | * Status: Developed internally, released, frozen
 | * https://github.com/hulu/splitshot
 |
-o TypeScript - Automatically inherit JSDoc comments subclasses and subinterfaces
+o TypeScript - Automatically inherit JSDoc comments in subclasses and subinterfaces
 | * Date: Sep 2017
 | * Status: Submitted and released in 2.7
 | * https://github.com/microsoft/TypeScript/pull/18804

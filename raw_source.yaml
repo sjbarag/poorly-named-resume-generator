@@ -128,7 +128,7 @@ side_projects:
         url: https://github.com/sjbarag/caiac
         description: Code as Infrastructure as Code
         goal: Have a laugh by writing a Terraform provider that models the Go AST and emits .go files
-        status: Published MVP and frozen
+        status: Published POC and frozen
         started: 2023-02-04
     - &brs
         name: brs
@@ -167,7 +167,7 @@ oss_work:
     - &typescript
         name: TypeScript
         url: https://github.com/microsoft/TypeScript/pull/18804
-        description: Automatically inherit JSDoc comments subclasses and subinterfaces
+        description: Automatically inherit JSDoc comments in subclasses and subinterfaces
         status: Submitted and released in 2.7
         date: 2017-09-27
 
