@@ -156,7 +156,7 @@ oss_work:
         name: roca
         url: https://github.com/hulu/roca
         description: Roku unit testing framework implemented on top of brs
-        status: Developed in public, released, actively maintained with peers
+        status: Developed in public and released; abandoned by Hulu after I left
         date: 2019-01-01
     - &splitshot
         name: splitshot

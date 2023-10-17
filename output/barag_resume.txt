@@ -108,7 +108,7 @@ o git - Added support for clone.defaultRemoteName config
 |
 o roca - Roku unit testing framework implemented on top of brs
 | * Date: Jan 2019
-| * Status: Developed in public, released, actively maintained with peers
+| * Status: Developed in public and released; abandoned by Hulu after I left
 | * https://github.com/hulu/roca
 |
 o splitshot - Generates TypeScript declarations from CoffeeScript sources
